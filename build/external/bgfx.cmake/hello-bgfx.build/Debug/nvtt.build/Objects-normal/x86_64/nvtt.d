@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvtt.cpp \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvtt.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/uint32_t.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/bx.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/platform.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/config.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/macros.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/bx.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/uint32_t.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/zoh.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/tile.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/zoh_utils.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/vector.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/nvmath.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/utils.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/debug.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/nvcore.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/posh.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/defsgnucdarwin.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/bc7/tile.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_utils.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/bc7/bits.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/vector.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/hash.h

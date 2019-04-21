@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4C5FED79E96D419E8A664BBD /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A3B581F2452A498EB1D70FDF /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				B74B1111F9884CA49CD47EC5 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				0CBFE64BF701483FBA07E4D8 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		DBD714FD53C54B24BA16DC63 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B1F7211C471409FA9BE7E0E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				340F0F7A060E4DA8962AAEA9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E1D470BA7F444D9F8F77915A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0022AABBF34B487AA09CBA80 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D44C2BBE8E2749849A27CBCA /* CMake Rules */,
+			);
+			dependencies = (
+				8E107BFC7967441980A316D2 /* PBXTargetDependency */,
+				1F650EE476394DD7A3DFF8D0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0113BC3A90E0495683278188 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = B238AB3895EC4442B06A848D /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_window.m */; };
+		0520FA7F703A414BA9D65C0E /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 63B61A39DD454884B019CBBA /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.c */; };
+		167C892862854B4FB4A5FA7F /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = E7FF34A0FE6E4A8480726B14 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.c */; };
+		1E5415044B8047698CA7AD69 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 2C40B7ABA39042A8B09EA280 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/internal.h */; };
+		21CDC92DDDA14AC8A9F34C67 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = EE873F10337A47DE8AA2227B /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.h */; };
+		2438A1D415A046189BB26BA4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 2080D732044F453CA6B80D85 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.h */; };
+		3ABA5ECF10594B7E83E1D53D /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = ECFB8AE8235C4D118A6534AA /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.h */; };
+		3EB929B0620E431080C36DD3 /* /Users/code/Desktop/hello-bgfx/build/external/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 70F50A67697040149342FB24 /* /Users/code/Desktop/hello-bgfx/build/external/glfw/src/glfw_config.h */; };
+		50A0D44D33D44BC191A965E7 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 8A5B4EB1DD6E4420902F27AF /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_monitor.m */; };
+		53B9BEC82A884A879AB1D9EE /* /Users/code/Desktop/hello-bgfx/external/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9E7E1F9731294F10B2BA1514 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/CMakeLists.txt */; };
+		555DACDC517948868BF00BD6 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 112DF7FC680C45DC9FEFA86C /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.h */; };
+		5C18AE870C034A8CB8311D92 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 6F1144D263E247A3B10CB0B4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		5E30DD50F54C45039CCABB43 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = C7860E887CED48C095C7511D /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_time.c */; };
+		69B56D32D7E54C1D9CAA39DE /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 920F8583660F40A2A0034708 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.m */; };
+		72434FF8D25D4E2FA3939510 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = A385FDD9E2D543EDAED3C96F /* /Users/code/Desktop/hello-bgfx/external/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		752BFBA67205473E9F3B4D36 /* /Users/code/Desktop/hello-bgfx/external/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 2BA01625BA4B4710B679BBAE /* /Users/code/Desktop/hello-bgfx/external/glfw/include/GLFW/glfw3native.h */; };
+		81611822D60549CCBC90D326 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 6479E817C49D4596A0E74170 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		9A4D6356D02C4F55BA1A45B5 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = EF0C897F715B460689274C8A /* /Users/code/Desktop/hello-bgfx/external/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		A10F58A521754F69AC9ADB2B /* /Users/code/Desktop/hello-bgfx/external/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = B350210CC5E34357AABC1B95 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		A7A648535BEE41F794FAE861 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = C79C7A4DCB874B53AA9A530C /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_platform.h */; };
+		B95459AB01624684AA255FF4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = A3687E39152B4325A37EA378 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		CE2241A6B64747978F659C20 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = C3051D150C6445F586A6FA14 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.m */; };
+		E0918CDE9A7941DB9E6C8DB4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 5AF5C669BE3442DD885234F4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.h */; };
+		E4008183FC654649B289D69C /* /Users/code/Desktop/hello-bgfx/external/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = D133A7BBB05D488890158AB3 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/mappings.h */; };
+		E4BE76E8871A406780B195DD /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = A7EAB071591A4D13833776F2 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.c */; };
+		F78BABFCB46948D1B231622B /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 16AB183BAE9642D0905F4F90 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_init.m */; };
+		FE37AD8FF0634DBDAD08AE32 /* /Users/code/Desktop/hello-bgfx/external/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 2B0D3744E2B34390ADBE33C6 /* /Users/code/Desktop/hello-bgfx/external/glfw/include/GLFW/glfw3.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		24014EA87C924DB7A8D48724 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		5AB454FBE6C44403BBF398B3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BAB933DD88E340FCA1AFDC24 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		BE4C62EDAE3F421294584044 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3325D75F5B544E8CBB45D8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F24E2423DD47A7880BDD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 519B87EE49F14E359C093CCC;
+			remoteInfo = glfw;
+		};
+		415DD7AAC9E449189C960ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F24E2423DD47A7880BDD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD714FD53C54B24BA16DC63;
+			remoteInfo = ZERO_CHECK;
+		};
+		F63CC3ECFC654649A660829A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35F24E2423DD47A7880BDD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D470BA7F444D9F8F77915A;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112DF7FC680C45DC9FEFA86C /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		16AB183BAE9642D0905F4F90 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		2080D732044F453CA6B80D85 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		2B0D3744E2B34390ADBE33C6 /* /Users/code/Desktop/hello-bgfx/external/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		2BA01625BA4B4710B679BBAE /* /Users/code/Desktop/hello-bgfx/external/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		2C40B7ABA39042A8B09EA280 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		5AF5C669BE3442DD885234F4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		63B61A39DD454884B019CBBA /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		6479E817C49D4596A0E74170 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		6F1144D263E247A3B10CB0B4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		70F50A67697040149342FB24 /* /Users/code/Desktop/hello-bgfx/build/external/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../../build/external/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		73BB17A2F9B64E6992833464 /* /Users/code/Desktop/hello-bgfx/external/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7B172558FF344107B16F69EA /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B4EB1DD6E4420902F27AF /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		920F8583660F40A2A0034708 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		9E7E1F9731294F10B2BA1514 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A3687E39152B4325A37EA378 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		A385FDD9E2D543EDAED3C96F /* /Users/code/Desktop/hello-bgfx/external/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		A7EAB071591A4D13833776F2 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		B238AB3895EC4442B06A848D /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		B350210CC5E34357AABC1B95 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		C3051D150C6445F586A6FA14 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		C7860E887CED48C095C7511D /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		C79C7A4DCB874B53AA9A530C /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		D133A7BBB05D488890158AB3 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		E7FF34A0FE6E4A8480726B14 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		ECFB8AE8235C4D118A6534AA /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		EE873F10337A47DE8AA2227B /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		EF0C897F715B460689274C8A /* /Users/code/Desktop/hello-bgfx/external/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		35740F1EEB0A4B1782507007 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				70F50A67697040149342FB24 /* /Users/code/Desktop/hello-bgfx/build/external/glfw/src/glfw_config.h */,
+				2B0D3744E2B34390ADBE33C6 /* /Users/code/Desktop/hello-bgfx/external/glfw/include/GLFW/glfw3.h */,
+				2BA01625BA4B4710B679BBAE /* /Users/code/Desktop/hello-bgfx/external/glfw/include/GLFW/glfw3native.h */,
+				2080D732044F453CA6B80D85 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.h */,
+				C79C7A4DCB874B53AA9A530C /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_platform.h */,
+				EE873F10337A47DE8AA2227B /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.h */,
+				2C40B7ABA39042A8B09EA280 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/internal.h */,
+				D133A7BBB05D488890158AB3 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/mappings.h */,
+				112DF7FC680C45DC9FEFA86C /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.h */,
+				ECFB8AE8235C4D118A6534AA /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.h */,
+				5AF5C669BE3442DD885234F4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4844CDC2752848D5B0307FBE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				16AB183BAE9642D0905F4F90 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_init.m */,
+				C3051D150C6445F586A6FA14 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.m */,
+				8A5B4EB1DD6E4420902F27AF /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_monitor.m */,
+				C7860E887CED48C095C7511D /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_time.c */,
+				B238AB3895EC4442B06A848D /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_window.m */,
+				6F1144D263E247A3B10CB0B4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/context.c */,
+				A7EAB071591A4D13833776F2 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.c */,
+				A385FDD9E2D543EDAED3C96F /* /Users/code/Desktop/hello-bgfx/external/glfw/src/init.c */,
+				B350210CC5E34357AABC1B95 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/input.c */,
+				A3687E39152B4325A37EA378 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/monitor.c */,
+				920F8583660F40A2A0034708 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.m */,
+				63B61A39DD454884B019CBBA /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.c */,
+				E7FF34A0FE6E4A8480726B14 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.c */,
+				6479E817C49D4596A0E74170 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/vulkan.c */,
+				EF0C897F715B460689274C8A /* /Users/code/Desktop/hello-bgfx/external/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		517B45CD72494E1A8A81E10B /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				4844CDC2752848D5B0307FBE /* Source Files */,
+				35740F1EEB0A4B1782507007 /* Header Files */,
+				9E7E1F9731294F10B2BA1514 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		CF8882DB4FB14ED9AE4AB0DE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DD40CD69D021452C8E9D634B /* CMake Rules */,
+				73BB17A2F9B64E6992833464 /* /Users/code/Desktop/hello-bgfx/external/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DBC9D1043EE54A3D92AC1DC4 = {
+			isa = PBXGroup;
+			children = (
+				CF8882DB4FB14ED9AE4AB0DE /* ALL_BUILD */,
+				EB13790019B24E6E94740BBC /* GLFW3 */,
+				F5F118D36AEE4E5DAF740F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD40CD69D021452C8E9D634B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EB13790019B24E6E94740BBC /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				517B45CD72494E1A8A81E10B /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		F5F118D36AEE4E5DAF740F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B172558FF344107B16F69EA /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		519B87EE49F14E359C093CCC /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E82EC6E2314FC0BD1643E6 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				1EA26A31A0B241ED8D40550E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 7B172558FF344107B16F69EA /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35F24E2423DD47A7880BDD29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 57AFF167ABBB4DE1A12AD9E5 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BE4C62EDAE3F421294584044 /* Debug */,
+				5AB454FBE6C44403BBF398B3 /* Release */,
+				BAB933DD88E340FCA1AFDC24 /* MinSizeRel */,
+				24014EA87C924DB7A8D48724 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DBC9D1043EE54A3D92AC1DC4;
+			projectDirPath = ../../../external/glfw;
+			projectRoot = "";
+			targets = (
+				E1D470BA7F444D9F8F77915A /* ALL_BUILD */,
+				DBD714FD53C54B24BA16DC63 /* ZERO_CHECK */,
+				519B87EE49F14E359C093CCC /* glfw */,
+				4C5FED79E96D419E8A664BBD /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		340F0F7A060E4DA8962AAEA9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/code/Desktop/hello-bgfx/build/external/glfw -f /Users/code/Desktop/hello-bgfx/build/external/glfw/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A57C52D1D5E0444887926248 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B74B1111F9884CA49CD47EC5 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/code/Desktop/hello-bgfx/build/external/glfw -f /Users/code/Desktop/hello-bgfx/build/external/glfw/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B8975D462C5D4604B94B2474 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C1FC1D55605245E7AC0060E0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D44C2BBE8E2749849A27CBCA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/code/Desktop/hello-bgfx/build/external/glfw -f /Users/code/Desktop/hello-bgfx/build/external/glfw/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EA26A31A0B241ED8D40550E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78BABFCB46948D1B231622B /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_init.m */,
+				CE2241A6B64747978F659C20 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_joystick.m */,
+				50A0D44D33D44BC191A965E7 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_monitor.m */,
+				5E30DD50F54C45039CCABB43 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_time.c */,
+				0113BC3A90E0495683278188 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/cocoa_window.m */,
+				5C18AE870C034A8CB8311D92 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/context.c */,
+				E4BE76E8871A406780B195DD /* /Users/code/Desktop/hello-bgfx/external/glfw/src/egl_context.c */,
+				72434FF8D25D4E2FA3939510 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/init.c */,
+				A10F58A521754F69AC9ADB2B /* /Users/code/Desktop/hello-bgfx/external/glfw/src/input.c */,
+				B95459AB01624684AA255FF4 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/monitor.c */,
+				69B56D32D7E54C1D9CAA39DE /* /Users/code/Desktop/hello-bgfx/external/glfw/src/nsgl_context.m */,
+				0520FA7F703A414BA9D65C0E /* /Users/code/Desktop/hello-bgfx/external/glfw/src/osmesa_context.c */,
+				167C892862854B4FB4A5FA7F /* /Users/code/Desktop/hello-bgfx/external/glfw/src/posix_thread.c */,
+				81611822D60549CCBC90D326 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/vulkan.c */,
+				9A4D6356D02C4F55BA1A45B5 /* /Users/code/Desktop/hello-bgfx/external/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CBFE64BF701483FBA07E4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1D470BA7F444D9F8F77915A /* ALL_BUILD */;
+			targetProxy = F63CC3ECFC654649A660829A /* PBXContainerItemProxy */;
+		};
+		1F650EE476394DD7A3DFF8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 519B87EE49F14E359C093CCC /* glfw */;
+			targetProxy = 3325D75F5B544E8CBB45D8C8 /* PBXContainerItemProxy */;
+		};
+		8E107BFC7967441980A316D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD714FD53C54B24BA16DC63 /* ZERO_CHECK */;
+			targetProxy = 415DD7AAC9E449189C960ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04827B0187C14186B661A44C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0993F8ADA0C04144A3CF347A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw/build";
+			};
+			name = RelWithDebInfo;
+		};
+		09A419239FF54251B82E7742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/code/Desktop/hello-bgfx/external/glfw/include","/Users/code/Desktop/hello-bgfx/external/glfw/src","/Users/code/Desktop/hello-bgfx/build/external/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0E08AE32B1E9425F9B0156B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw/build";
+			};
+			name = MinSizeRel;
+		};
+		143B1099530741C8B8703F62 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		44F061C6DA964675AE019A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		46BD3B37D1AF435994371993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		497AEBB9CDBA491C95D5262C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/code/Desktop/hello-bgfx/external/glfw/include","/Users/code/Desktop/hello-bgfx/external/glfw/src","/Users/code/Desktop/hello-bgfx/build/external/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E45B8F22DE042F5B8144ED4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6F9C650BC67C4C84A6FA1149 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		739BF2078ED1482EB5258DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		79AD59C3C2EA4F6AA602F234 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7A54C0480B7545E9B2DAF714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7B4C40BE068B42B7BD9EBBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/code/Desktop/hello-bgfx/external/glfw/include","/Users/code/Desktop/hello-bgfx/external/glfw/src","/Users/code/Desktop/hello-bgfx/build/external/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8441E6A64D7F4C90BEDA710A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw/build";
+			};
+			name = Release;
+		};
+		88E009C27A1A469399B4DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AC50790E299849F3A3604CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B7C4E588F77043D68A7DB2E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D75564387671456BA3EF5D4B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/code/Desktop/hello-bgfx/external/glfw/include","/Users/code/Desktop/hello-bgfx/external/glfw/src","/Users/code/Desktop/hello-bgfx/build/external/glfw/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F3DE3C7E65D5460C81F9D8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glfw/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0022AABBF34B487AA09CBA80 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739BF2078ED1482EB5258DD9 /* Debug */,
+				7A54C0480B7545E9B2DAF714 /* Release */,
+				04827B0187C14186B661A44C /* MinSizeRel */,
+				143B1099530741C8B8703F62 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57AFF167ABBB4DE1A12AD9E5 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DE3C7E65D5460C81F9D8D9 /* Debug */,
+				8441E6A64D7F4C90BEDA710A /* Release */,
+				0E08AE32B1E9425F9B0156B6 /* MinSizeRel */,
+				0993F8ADA0C04144A3CF347A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B1F7211C471409FA9BE7E0E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F061C6DA964675AE019A72 /* Debug */,
+				AC50790E299849F3A3604CFD /* Release */,
+				79AD59C3C2EA4F6AA602F234 /* MinSizeRel */,
+				6E45B8F22DE042F5B8144ED4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1E82EC6E2314FC0BD1643E6 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4C40BE068B42B7BD9EBBCC /* Debug */,
+				09A419239FF54251B82E7742 /* Release */,
+				497AEBB9CDBA491C95D5262C /* MinSizeRel */,
+				D75564387671456BA3EF5D4B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3B581F2452A498EB1D70FDF /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BD3B37D1AF435994371993 /* Debug */,
+				88E009C27A1A469399B4DD03 /* Release */,
+				B7C4E588F77043D68A7DB2E7 /* MinSizeRel */,
+				6F9C650BC67C4C84A6FA1149 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35F24E2423DD47A7880BDD29 /* Project object */;
+}

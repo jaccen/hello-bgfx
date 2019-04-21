@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/src/filepath.cpp \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/src/bx_p.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/bx.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/platform.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/config.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/macros.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/bx.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/debug.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/string.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/allocator.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/allocator.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/string.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/file.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/filepath.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/error.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/error.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/readerwriter.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/endian.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/endian.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/uint32_t.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/uint32_t.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/inline/readerwriter.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bx/include/bx/os.h

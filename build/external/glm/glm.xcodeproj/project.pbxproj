@@ -1,0 +1,1595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4C5FED79E96D419E8A664BBD /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2611B0812E1848D2BC5317BF /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				850CFA90D73941EE9C1101D1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4133F074EA0343FA905E4A15 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		DBD714FD53C54B24BA16DC63 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 548F580A79AF4C59B4F709BA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7AD3B3F0287E474998EEAE52 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E1D470BA7F444D9F8F77915A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4380D0A2DEC24A2E98EDA21F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8B90EBCDFD3444F4AD7A7C94 /* CMake Rules */,
+			);
+			dependencies = (
+				182A74B0B1A642098DB16D7F /* PBXTargetDependency */,
+				2056147680274B7D94D673D9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		017A9ED1810E48AAADE294D2 /* /Users/code/Desktop/hello-bgfx/external/glm/manual.md */ = {isa = PBXBuildFile; fileRef = C394DB2EE77A47B085E6B589 /* /Users/code/Desktop/hello-bgfx/external/glm/manual.md */; };
+		01AF3F1B9EFA4F73A7545DA5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric.inl */ = {isa = PBXBuildFile; fileRef = BC727BF83533482E8E4657E8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric.inl */; };
+		02E0ACFDF64F46C58DC255E8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/vec1.inl */ = {isa = PBXBuildFile; fileRef = 3AD05C7D19DC4DCC884F6732 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/vec1.inl */; };
+		04AAAFC221C242399B0F10A8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/mixed_product.hpp */ = {isa = PBXBuildFile; fileRef = 517178C9AB1049F28692CA39 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/mixed_product.hpp */; };
+		05292D6F7FB44595909D0605 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/projection.hpp */ = {isa = PBXBuildFile; fileRef = 2FB287EFEA6E4420A845CB7C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/projection.hpp */; };
+		05C18EAB03DE4256AC75ADA8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4.hpp */ = {isa = PBXBuildFile; fileRef = 86EA72F0D208403DB7C4A837 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4.hpp */; };
+		07FCDC7B571C48B3A0421D51 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/spline.hpp */ = {isa = PBXBuildFile; fileRef = 1D445EA4DB464F519408E40C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/spline.hpp */; };
+		0844A613C82C44C6B0E8EF4E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/range.hpp */ = {isa = PBXBuildFile; fileRef = 6F867EB468024A269AC92DEA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/range.hpp */; };
+		0856C8B333D54DD4872A4CE3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/wrap.hpp */ = {isa = PBXBuildFile; fileRef = D72DDC5C1F0A44279CFEAFB6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/wrap.hpp */; };
+		0967F71FA8BC4B69A8899EDD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/precision.hpp */ = {isa = PBXBuildFile; fileRef = 771D9CD0722E4306A04EE5D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/precision.hpp */; };
+		0A54DE2EBD904D6684909588 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common_simd.inl */ = {isa = PBXBuildFile; fileRef = 18EDD44472294C6298683CD1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common_simd.inl */; };
+		0A84F62568514D15A4CFC5CB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/raw_data.inl */ = {isa = PBXBuildFile; fileRef = 044A024CAB8F4ACF859001B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/raw_data.inl */; };
+		0B1C67A4531546CAA0F22D20 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_major_storage.hpp */ = {isa = PBXBuildFile; fileRef = D770B76211C74BB8BD9A1C1C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_major_storage.hpp */; };
+		0C07E7EEB1E74F61A2453B32 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec2.hpp */ = {isa = PBXBuildFile; fileRef = 26338C06E3FE44B4AC229CB9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec2.hpp */; };
+		0D21BBA1776541B7BC3C76F5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_swizzle_func.hpp */ = {isa = PBXBuildFile; fileRef = 4EC0BE3FC32744E8A523FD55 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_swizzle_func.hpp */; };
+		0E148D0E26E9457AB5D368D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extended_min_max.inl */ = {isa = PBXBuildFile; fileRef = 182BAB8F25544CB5B37C6A1C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extended_min_max.inl */; };
+		0EDA23AF57AC408496721C85 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/epsilon.inl */ = {isa = PBXBuildFile; fileRef = B2D8FACACB6F4344A80B9E39 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/epsilon.inl */; };
+		0F9B24776E38427CBBC9E375 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric.inl */ = {isa = PBXBuildFile; fileRef = 213FD8981A0246F08BF5EFAE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric.inl */; };
+		100D7E8E3455464ABD176A29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion.inl */ = {isa = PBXBuildFile; fileRef = 8FBF8F7BDEC84A8CAF8A6869 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion.inl */; };
+		13E70A1F09D2416097A92C2C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/round.inl */ = {isa = PBXBuildFile; fileRef = D8AF7C6F4129432DB4F2A3B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/round.inl */; };
+		1492C3F91802438F9799C94A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing_simd.inl */ = {isa = PBXBuildFile; fileRef = 41E5BB9EED43473BB27E2E16 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing_simd.inl */; };
+		15A971F9F9DA4BE299B8B8DE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec3.inl */ = {isa = PBXBuildFile; fileRef = F4F02B875B1D43F395B055DE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec3.inl */; };
+		165AB527841A4DE2A8A5D6C5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/raw_data.hpp */ = {isa = PBXBuildFile; fileRef = 999748E9F8854A09B3195D6F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/raw_data.hpp */; };
+		18281649514E4E8CB833D80E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric_simd.inl */ = {isa = PBXBuildFile; fileRef = 7D2F4A82921A45B9A22E1D57 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric_simd.inl */; };
+		1864A223D9DA4BBEB7862E7D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/orthonormalize.inl */ = {isa = PBXBuildFile; fileRef = 39A1A08D1394477CB797FCD4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/orthonormalize.inl */; };
+		193522D4DF5D4FE79460CBFA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_exponential.inl */ = {isa = PBXBuildFile; fileRef = 43D8CAF2A01249DF95BA8C1F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_exponential.inl */; };
+		1A0415A98EE545B39E7753EC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/norm.hpp */ = {isa = PBXBuildFile; fileRef = 90E0C961C7B2491CB0FE3009 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/norm.hpp */; };
+		1D8BBF903AB74D77A873D83F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/noise.hpp */ = {isa = PBXBuildFile; fileRef = 76328529E9E3436C8768B1D6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/noise.hpp */; };
+		1F3F0A342D8745FB9A6C0376 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common.hpp */ = {isa = PBXBuildFile; fileRef = 425711E694E2414EBC7E6A51 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common.hpp */; };
+		20AADC2D005D4304B2854124 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_ptr.inl */ = {isa = PBXBuildFile; fileRef = A78E8AA44DC4499998B4493A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_ptr.inl */; };
+		20E66F24A2284F0F95AB2F7F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x4.hpp */ = {isa = PBXBuildFile; fileRef = 29C32287FC44482AA22433D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x4.hpp */; };
+		214C4AA7F0254E749DB86673 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_fixes.hpp */ = {isa = PBXBuildFile; fileRef = 512CAB2AF2614496BC531AC0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_fixes.hpp */; };
+		21663310FF2249E79AA3761F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4_simd.inl */ = {isa = PBXBuildFile; fileRef = B7E09C7607CD41A5B118B1FE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4_simd.inl */; };
+		218F9CC9FF8449F3B7477952 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x2.hpp */ = {isa = PBXBuildFile; fileRef = E99AAF6F3B034EE29178EABC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x2.hpp */; };
+		2272F7A374B74F42B85D1DD9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_aligned.hpp */ = {isa = PBXBuildFile; fileRef = 4A0595DB93B1485D9E9465DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_aligned.hpp */; };
+		2373618DE2C9418C85364183 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational.inl */ = {isa = PBXBuildFile; fileRef = 865481D26AA34B98B704BA23 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational.inl */; };
+		243C9F3224B547558C4347F8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec1.inl */ = {isa = PBXBuildFile; fileRef = 0ACF94A480084CFF933DD7E9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec1.inl */; };
+		25CC6FD962D143B59648E84A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/platform.h */ = {isa = PBXBuildFile; fileRef = 4BF9887E63254BE7925E3F98 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/platform.h */; };
+		26AAD8C9306C41E38E1F7A3D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec.hpp */ = {isa = PBXBuildFile; fileRef = E7716B4F3CAB4BBD9FA2CF5E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec.hpp */; };
+		26F538DAF4A643C882F71E06 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_encoding.inl */ = {isa = PBXBuildFile; fileRef = F13F37630ECD4FC4B3A8FFFD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_encoding.inl */; };
+		2700F3CA9A744636BA753022 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/associated_min_max.hpp */ = {isa = PBXBuildFile; fileRef = 39402727195F4F22AB980595 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/associated_min_max.hpp */; };
+		272E871312E74DDB955A5D3F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/noise.inl */ = {isa = PBXBuildFile; fileRef = 58CBF157180047ABB95E2493 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/noise.inl */; };
+		27775EC0A6B44681A6766CB5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normalize_dot.inl */ = {isa = PBXBuildFile; fileRef = F0C0252F978A4AF2AD27163E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normalize_dot.inl */; };
+		29CFC3F053B1406899C41492 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/constants.inl */ = {isa = PBXBuildFile; fileRef = 11A368922FE74652A8BB3CAF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/constants.inl */; };
+		2B3A3A5DDAFA4FF18F1E136D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/component_wise.inl */ = {isa = PBXBuildFile; fileRef = 78E3250BA31D47E89C84CF31 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/component_wise.inl */; };
+		2D4C14B9FCC1447CA2D8FC22 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normal.hpp */ = {isa = PBXBuildFile; fileRef = B81DEDA70C3040D385689767 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normal.hpp */; };
+		2DC6D46B905D485A898BAA1A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/log_base.hpp */ = {isa = PBXBuildFile; fileRef = BAAF0CAF734D4895903E11BC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/log_base.hpp */; };
+		2EFD3F1AF8ED464CBF5C9FB3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/dual_quaternion.inl */ = {isa = PBXBuildFile; fileRef = 5AF9210301414ED390B88DCC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/dual_quaternion.inl */; };
+		3095892D9D4E4084BC901F27 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_operation.inl */ = {isa = PBXBuildFile; fileRef = 8413CE16E9DB404B90D2A501 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_operation.inl */; };
+		30A0C05B454F46539EEDCB41 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_gentype.inl */ = {isa = PBXBuildFile; fileRef = 540E2776040E47D4A32E3ACC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_gentype.inl */; };
+		330DF38C34E347C5A700724D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space_YCoCg.inl */ = {isa = PBXBuildFile; fileRef = 0884A563C79740B4A8517F8E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space_YCoCg.inl */; };
+		33BC6C0F758B4996BE9671B8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/mixed_product.inl */ = {isa = PBXBuildFile; fileRef = 88B13B97B071409880DAEAFB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/mixed_product.inl */; };
+		33D84BA648FA45B681EAAF11 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_gentype.hpp */ = {isa = PBXBuildFile; fileRef = 603228A122F34F5D9BD1D1E3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_gentype.hpp */; };
+		33EAF3EA9CFB40A89A1DDE8F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/round.hpp */ = {isa = PBXBuildFile; fileRef = 150F2FFD01AA4B558DCBAEC8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/round.hpp */; };
+		3466BBD6089A4BC89316DA5A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational.hpp */ = {isa = PBXBuildFile; fileRef = 66A8E541611448779B57E1C1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational.hpp */; };
+		36618A4265C34960AE81FD24 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_vector.hpp */ = {isa = PBXBuildFile; fileRef = C076C475D6D34CCE8B2A97E8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_vector.hpp */; };
+		3737A898135A4F4BBC8142D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_features.hpp */ = {isa = PBXBuildFile; fileRef = 3FDF7CE6CFCA403B8F1A859E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_features.hpp */; };
+		3801150DCB1440C29B1220B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_relational.inl */ = {isa = PBXBuildFile; fileRef = 5AF764B208294A88914D6384 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_relational.inl */; };
+		3821E7E46B4A418DA1A06CB6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_access.hpp */ = {isa = PBXBuildFile; fileRef = EA5C06A32A8D4D84AE2D6DD2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_access.hpp */; };
+		3B12326C4641428DBC89293B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform2.hpp */ = {isa = PBXBuildFile; fileRef = 0B1D19FE0B15419F885BCDB5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform2.hpp */; };
+		3C3F7255A96D457A9AE2D8D7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/exponential.h */ = {isa = PBXBuildFile; fileRef = CD5EC89705884B6D816A652A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/exponential.h */; };
+		3CCD7E0B94224980AAB595DA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4_simd.inl */ = {isa = PBXBuildFile; fileRef = D9C4562187AC492F8F4ACE07 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4_simd.inl */; };
+		4006546ADD80471C9959BE67 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x3.hpp */ = {isa = PBXBuildFile; fileRef = 1C5967B74A8441359061EFED /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x3.hpp */; };
+		419F57D15F0D436380868722 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/exponential.hpp */ = {isa = PBXBuildFile; fileRef = 312F9C8895AF40C1816E5073 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/exponential.hpp */; };
+		41BFA3C340F24F0A96307BAB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec1.hpp */ = {isa = PBXBuildFile; fileRef = 648F95815F914158935BD226 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec1.hpp */; };
+		4327D32F54244A89B3AC8395 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/constants.hpp */ = {isa = PBXBuildFile; fileRef = 7F2E994490EA4600BCEF0676 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/constants.hpp */; };
+		433774B50B5C494A88F3B808 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/ulp.hpp */ = {isa = PBXBuildFile; fileRef = 08F44424B4184D439452018C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/ulp.hpp */; };
+		4344D61933C54DEFA5D460C5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vec_swizzle.hpp */ = {isa = PBXBuildFile; fileRef = 4AAFBC7343244BBF8E1F48C6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vec_swizzle.hpp */; };
+		4429213EB3774E74908812CD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential_simd.inl */ = {isa = PBXBuildFile; fileRef = 462409BA0A5B4FD19118B2F7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential_simd.inl */; };
+		44D376CF64DF4C51A84526CD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/color_space.hpp */ = {isa = PBXBuildFile; fileRef = 4B9FB89E5A0F46B4B976B476 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/color_space.hpp */; };
+		477C0D2029BA4929B8F56E5D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential.hpp */ = {isa = PBXBuildFile; fileRef = 3A91929E715E4B98B523C866 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential.hpp */; };
+		478F4A0CF1B74BE58CFDF7C4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/compatibility.hpp */ = {isa = PBXBuildFile; fileRef = EBD111332DA0451C8EE4224B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/compatibility.hpp */; };
+		480B7860E0B447EC992E68BB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion.hpp */ = {isa = PBXBuildFile; fileRef = 8A194E96D27A4FD8BA33B922 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion.hpp */; };
+		4818A33A8407437DBC210D42 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/polar_coordinates.hpp */ = {isa = PBXBuildFile; fileRef = 8486C8CDD8AF492DAD2BB0A6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/polar_coordinates.hpp */; };
+		482B2D516E384A5EB74BD821 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/string_cast.inl */ = {isa = PBXBuildFile; fileRef = CF3BB29A173D4B92AB43F26E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/string_cast.inl */; };
+		4896BD585B47401094F8E6FA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_interpolation.hpp */ = {isa = PBXBuildFile; fileRef = 08092664C12C4AD58238BDD2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_interpolation.hpp */; };
+		48E7AFB219F441918C0C291B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/glm.cpp */ = {isa = PBXBuildFile; fileRef = 278D6E2F2C414495854FDC41 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/glm.cpp */; };
+		4902FC86A5854602A04BBE57 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat.inl */ = {isa = PBXBuildFile; fileRef = 819FF0BF7AD042EC9A5C42B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat.inl */; };
+		49BD4451C21E40BBA9E0A4FF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/norm.inl */ = {isa = PBXBuildFile; fileRef = 2B33BC2305D44524ADD5D691 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/norm.inl */; };
+		4A7CC80DCF5942F4ACD65188 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric.hpp */ = {isa = PBXBuildFile; fileRef = 67606A55FC104FAB9AA832B0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric.hpp */; };
+		4B6944D10411461CB5C90E08 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform.hpp */ = {isa = PBXBuildFile; fileRef = B3C8BC4E7BB944CCA10C8095 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform.hpp */; };
+		4B7764539FFF444D84672C66 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/wrap.inl */ = {isa = PBXBuildFile; fileRef = 4E0F103BAC6F4125BBA17B03 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/wrap.inl */; };
+		4B9ACA741D744A4AB3C75A06 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_query.inl */ = {isa = PBXBuildFile; fileRef = 7C57F41BB72A47ACA78D6A86 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_query.inl */; };
+		4D2E06EB69E64FBFB3074E56 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric.hpp */ = {isa = PBXBuildFile; fileRef = BAA64CE88C7340C49C313020 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric.hpp */; };
+		4D3F84F1F4D3467DAB9DC19E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x2.hpp */ = {isa = PBXBuildFile; fileRef = 07C41E7459614FB0A44CC66D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x2.hpp */; };
+		4D512E343A134FA68DE19CD5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F7D26366C34F4E4D8B1D3C82 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/CMakeLists.txt */; };
+		4E4B78BEA16341D6B29972E6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4.inl */ = {isa = PBXBuildFile; fileRef = 53BE1E30390C4AEA940CC26C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4.inl */; };
+		4E681B3B71E145119BD932C8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/common.inl */ = {isa = PBXBuildFile; fileRef = 4457CD4003764908BB759DDB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/common.inl */; };
+		4E769898048F4BF495427AC5 /* /Users/code/Desktop/hello-bgfx/external/glm/readme.md */ = {isa = PBXBuildFile; fileRef = 0503707813594E7B975392EA /* /Users/code/Desktop/hello-bgfx/external/glm/readme.md */; };
+		4E90382A20A142838CCFDB9F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/reciprocal.inl */ = {isa = PBXBuildFile; fileRef = 8706B7105FF74F73A09A679D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/reciprocal.inl */; };
+		4F2AA053339944DE9B57AE21 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_aligned.inl */ = {isa = PBXBuildFile; fileRef = E0181CF479D3455E9EBF1162 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_aligned.inl */; };
+		4FC7FF7A95A143C8934C7A94 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extend.inl */ = {isa = PBXBuildFile; fileRef = 8EC14B4EE9AD46CF980D1BD9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extend.inl */; };
+		5189F24537044FD6803D8726 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_relational.hpp */ = {isa = PBXBuildFile; fileRef = 1EF6A6D247734DAB8F70DFDD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_relational.hpp */; };
+		51B429DAC59D42CC8AD48732 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_trait.hpp */ = {isa = PBXBuildFile; fileRef = 050F0448020C45AABC380057 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_trait.hpp */; };
+		52961C5BAC5C439392721930 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_square_root.hpp */ = {isa = PBXBuildFile; fileRef = F3C11D63483E41B781C235F7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_square_root.hpp */; };
+		539794249FEE47D2A1D79C3F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/setup.hpp */ = {isa = PBXBuildFile; fileRef = 9605A4F4C19949328E241D59 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/setup.hpp */; };
+		544C5F1E6B144AFF8EC8B6E1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x4.hpp */ = {isa = PBXBuildFile; fileRef = D414DE7D9D194C53B23BB7AF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x4.hpp */; };
+		549502B5864A47139E47096E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x2.hpp */ = {isa = PBXBuildFile; fileRef = 220F910737D64F899BE20505 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x2.hpp */; };
+		5525B4EC086A4548814CFB31 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normal.inl */ = {isa = PBXBuildFile; fileRef = 3279AC50FD6640FF8861FB5F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normal.inl */; };
+		5950B52374E84230811CD0C1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x2.hpp */ = {isa = PBXBuildFile; fileRef = E71673DE281448F594E2FD81 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x2.hpp */; };
+		595E32AED4654F37ABC04D3B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/color_space.inl */ = {isa = PBXBuildFile; fileRef = 8F907E1AF55C46408B05FFB4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/color_space.inl */; };
+		5AB4F163E05D4919856CB81E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/string_cast.hpp */ = {isa = PBXBuildFile; fileRef = F30A7938A2A04F0985C6FC77 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/string_cast.hpp */; };
+		5BBF2A0079B64C4FB81BBFBC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vector_relational.hpp */ = {isa = PBXBuildFile; fileRef = E9B234A7EB7D45F8AD5B33DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vector_relational.hpp */; };
+		5D4137A172D34B0CB0B23046 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/functions.inl */ = {isa = PBXBuildFile; fileRef = 0BECD9D1A58A48EF96EB803E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/functions.inl */; };
+		5E512A899F6348CE87830777 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/geometric.h */ = {isa = PBXBuildFile; fileRef = 442656DB7B524620AEE58C5F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/geometric.h */; };
+		5EAB49F99DF5414B9E672E54 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_exponential.hpp */ = {isa = PBXBuildFile; fileRef = B82AC5451A054581B8A03C49 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_exponential.hpp */; };
+		5EDE39F21C214762BF7BA5E4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/std_based_type.hpp */ = {isa = PBXBuildFile; fileRef = 756F4950A3DB4DEFB1327A0B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/std_based_type.hpp */; };
+		5F0D3AB8D73941FCBF7456CD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec4.hpp */ = {isa = PBXBuildFile; fileRef = EE43B0FA4DEF488BA5F03D0D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec4.hpp */; };
+		6104090C0D9740959144EF59 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform2.inl */ = {isa = PBXBuildFile; fileRef = 49480197F8E249F1BE544D83 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform2.inl */; };
+		6329D6DCD07F424FA3DDE2D1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_angle.hpp */ = {isa = PBXBuildFile; fileRef = 17F345950C9D494DA1425C2A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_angle.hpp */; };
+		6466F2582F084F2694E93C13 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/integer.hpp */ = {isa = PBXBuildFile; fileRef = 488089519FDE4432A5CFD2A6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/integer.hpp */; };
+		653DC119075549C889593AFC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion_simd.inl */ = {isa = PBXBuildFile; fileRef = 24954BAADB05400DAF012DF3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion_simd.inl */; };
+		657328039B8B4D389FC9A792 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/io.inl */ = {isa = PBXBuildFile; fileRef = 712872ADFD384432A61C3AAA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/io.inl */; };
+		65BAD52E1CE84B26AD44183B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/random.inl */ = {isa = PBXBuildFile; fileRef = 98E2D5AF18234FA7A394CA54 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/random.inl */; };
+		65D272CC76E24DC2806D1BBF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_normalized_axis.inl */ = {isa = PBXBuildFile; fileRef = 5E465876BDFD4A21AD7F8185 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_normalized_axis.inl */; };
+		6AAA34DE98034E3BBFB428EC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x4.hpp */ = {isa = PBXBuildFile; fileRef = BFEFF971DB644BC1BFB379B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x4.hpp */; };
+		6B24020B50594BEA8B903898 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_inverse.hpp */ = {isa = PBXBuildFile; fileRef = 259324B0D8854FDC931D4994 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_inverse.hpp */; };
+		6B3DB90E50E740FE868E2305 /* /Users/code/Desktop/hello-bgfx/external/glm/util/glm.natvis */ = {isa = PBXBuildFile; fileRef = 656C1E62EABD4BFA878AB1DA /* /Users/code/Desktop/hello-bgfx/external/glm/util/glm.natvis */; };
+		6C07C8C3CFF54D36A1498294 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x3.hpp */ = {isa = PBXBuildFile; fileRef = 6613FF45EF6045198B735308 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x3.hpp */; };
+		6CB818CDD5D1468593770ABB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/hash.inl */ = {isa = PBXBuildFile; fileRef = 8EE746619ABF4163B70A4C36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/hash.inl */; };
+		6D6D0C6CF1844C4483A272A9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_decompose.hpp */ = {isa = PBXBuildFile; fileRef = D98ABFFE2EB84E41BCAA1554 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_decompose.hpp */; };
+		6EE85FCC26C44B80BC95B60A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential.inl */ = {isa = PBXBuildFile; fileRef = 484ED923B8AD4E66A92934A9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential.inl */; };
+		6FD577866CAD42D6A3721103 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_encoding.hpp */ = {isa = PBXBuildFile; fileRef = 25A10887513B4F308BF779A4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_encoding.hpp */; };
+		712A350F932947EEA657F86A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational_simd.inl */ = {isa = PBXBuildFile; fileRef = 835737CDA7264CCA9883C018 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational_simd.inl */; };
+		7187C7CFDFBB4EF99B9CB023 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_swizzle.hpp */ = {isa = PBXBuildFile; fileRef = C8C79134CECF405E945A6FCF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_swizzle.hpp */; };
+		730395479D4748259D686026 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/optimum_pow.hpp */ = {isa = PBXBuildFile; fileRef = CCF7402B1A1D4AF499301079 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/optimum_pow.hpp */; };
+		73E917481CC942CEB1764A51 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/trigonometric.h */ = {isa = PBXBuildFile; fileRef = FF1E071E626A4B5FB66402F0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/trigonometric.h */; };
+		766D2407BA3E4A718D532CD1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/intersect.inl */ = {isa = PBXBuildFile; fileRef = 7A11E2EB49E44350A9A177B5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/intersect.inl */; };
+		767772C9F96C4FEAB4FB9F96 /* /Users/code/Desktop/hello-bgfx/external/glm/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E50DAF5BF5304293AFC9AE4C /* /Users/code/Desktop/hello-bgfx/external/glm/CMakeLists.txt */; };
+		774809224C334B77817D873A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/handed_coordinate_space.hpp */ = {isa = PBXBuildFile; fileRef = C35CA6F4B374425BBBB100E7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/handed_coordinate_space.hpp */; };
+		78FF7759661B41CAAD58DD23 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/gradient_paint.hpp */ = {isa = PBXBuildFile; fileRef = E820D9F0CE0145F2ADE7AE29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/gradient_paint.hpp */; };
+		7B3C4E772AAB452198782958 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/bit.inl */ = {isa = PBXBuildFile; fileRef = 30F497C23983454796E4FE4A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/bit.inl */; };
+		7B5E01F1D4C44C348C8BC4FE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x2.inl */ = {isa = PBXBuildFile; fileRef = 5B19E3417176437A85DBF08F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x2.inl */; };
+		7BAFC2F1A21C4337BAA55418 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/number_precision.hpp */ = {isa = PBXBuildFile; fileRef = 9D3410665E69423C9236C745 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/number_precision.hpp */; };
+		7C1E52C18E7043438AAFBDBC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec2.inl */ = {isa = PBXBuildFile; fileRef = 68FA7C33CCB14BEB95410583 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec2.inl */; };
+		7CB5A7B273DB4893B17CBCD1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_trait.inl */ = {isa = PBXBuildFile; fileRef = 9C7DC63CC78B47CEB8816748 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_trait.inl */; };
+		7EA43939D429495F9ACAA6C8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x2.inl */ = {isa = PBXBuildFile; fileRef = B8DD540EA8F94AC0A3FDB077 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x2.inl */; };
+		7ED7B4807C7E42B7B769CEDD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/ulp.inl */ = {isa = PBXBuildFile; fileRef = 47BA623E2C504270AB7DF203 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/ulp.inl */; };
+		7F06F5D2FD51456EA6810842 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_query.inl */ = {isa = PBXBuildFile; fileRef = 68E3F996B7C24E3E99C95B8E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_query.inl */; };
+		801E4C1C989E456183E22C09 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/euler_angles.hpp */ = {isa = PBXBuildFile; fileRef = 10B1C95261F545008C5A5CEF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/euler_angles.hpp */; };
+		816D33AAB1B440A597500AA2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_query.hpp */ = {isa = PBXBuildFile; fileRef = 8FB50F4B9A0F4F739E1609E2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_query.hpp */; };
+		824A445213AF43278A09A189 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/matrix.h */ = {isa = PBXBuildFile; fileRef = B4F26B36DD9146A28DE24BC0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/matrix.h */; };
+		828E3CD9F55645BA8E6769F1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4.inl */ = {isa = PBXBuildFile; fileRef = A16B5E2F956D4A4EB53823AE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4.inl */; };
+		83A5081663A34FB284595BD9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_int.hpp */ = {isa = PBXBuildFile; fileRef = C61B7885B893406E8FB87AA3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_int.hpp */; };
+		851749B121CA46579ABC4EF6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_transform.hpp */ = {isa = PBXBuildFile; fileRef = 81AFF4FEDF5C46F9AE584018 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_transform.hpp */; };
+		878270F844874E70B5A3487C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x2.hpp */ = {isa = PBXBuildFile; fileRef = 9D005E52974849A985619478 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x2.hpp */; };
+		87C06DB5F2B94219A9DDF363 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_transform_2d.hpp */ = {isa = PBXBuildFile; fileRef = 5D8A9E7E4F8743A388F0B32B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_transform_2d.hpp */; };
+		881BC545684D4E039F6309B4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec3.hpp */ = {isa = PBXBuildFile; fileRef = 9A513AE4A85D4EA892E22641 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec3.hpp */; };
+		8861E69C6E634C848F2A6426 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/vector_relational.h */ = {isa = PBXBuildFile; fileRef = 4BFE343695D4465CAE26B4B8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/vector_relational.h */; };
+		888863A985D147849AF5277E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/quaternion.hpp */ = {isa = PBXBuildFile; fileRef = 01320A3529304815AE641CA6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/quaternion.hpp */; };
+		88EF5F40198A422080662577 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common.inl */ = {isa = PBXBuildFile; fileRef = 456B0B2DB769426EB64AA7F4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common.inl */; };
+		890DA8F7F5A24F4CB463C19F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/fwd.hpp */ = {isa = PBXBuildFile; fileRef = C0F26333D76846909AAE66ED /* /Users/code/Desktop/hello-bgfx/external/glm/glm/fwd.hpp */; };
+		8C3B7983B0114293962D1E24 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer_simd.inl */ = {isa = PBXBuildFile; fileRef = EFD55730B66D4BDF86D78A33 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer_simd.inl */; };
+		8CA5C153473D48A193ED8A6F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/packing.inl */ = {isa = PBXBuildFile; fileRef = 49412F796F5A435A94B26790 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/packing.inl */; };
+		8DE0FA09469E46B48A35FC5B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/euler_angles.inl */ = {isa = PBXBuildFile; fileRef = 7E25CED7693D4C36B5425E65 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/euler_angles.inl */; };
+		8EABB12BE2CD459EA72DDCD0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x4.hpp */ = {isa = PBXBuildFile; fileRef = B7DF3991B91E43CAB620922D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x4.hpp */; };
+		935BFBB178AD4D7F8FA04515 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extend.hpp */ = {isa = PBXBuildFile; fileRef = D8BC130E3B204AD885520E6F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extend.hpp */; };
+		940F772C6C1F4DAE95753E38 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/closest_point.hpp */ = {isa = PBXBuildFile; fileRef = 3D9572BB68014F1F8AF998BC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/closest_point.hpp */; };
+		942D072001A140A68C05E65D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_square_root.inl */ = {isa = PBXBuildFile; fileRef = 44129EE62C9E4D8A9EB0B8D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_square_root.inl */; };
+		94F455AFC42144D2921C7881 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/common.hpp */ = {isa = PBXBuildFile; fileRef = D5ADA540C9CB49B0BC55D619 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/common.hpp */; };
+		9575F6A3759E4BA788755BC7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x4.inl */ = {isa = PBXBuildFile; fileRef = 7A4AE67FBFF7498480799F25 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x4.inl */; };
+		95ECF29B5F65498282CAA30B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/geometric.hpp */ = {isa = PBXBuildFile; fileRef = 4FE15B5418954E858CDA0917 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/geometric.hpp */; };
+		962DBDECA3454199A8F5BC23 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/dual_quaternion.hpp */ = {isa = PBXBuildFile; fileRef = 8189634E21C54448849056EB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/dual_quaternion.hpp */; };
+		96F16ADB475643EEB04D2020 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/log_base.inl */ = {isa = PBXBuildFile; fileRef = 03E70D5D5E9142C5A78DAED8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/log_base.inl */; };
+		977E11280C5D4BC8A286DBA6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/handed_coordinate_space.inl */ = {isa = PBXBuildFile; fileRef = 6ED2DA74FD61420BA7FCD525 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/handed_coordinate_space.inl */; };
+		98A37B22C70547FA92452D77 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space.hpp */ = {isa = PBXBuildFile; fileRef = C4C82A6632D84EC6AEFB4AF9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space.hpp */; };
+		98BA97414F6C4D37A5B1F93F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/number_precision.inl */ = {isa = PBXBuildFile; fileRef = E03758E961C14D68B831B485 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/number_precision.inl */; };
+		98C7A04E45A84B10BEFEB6C9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_interpolation.inl */ = {isa = PBXBuildFile; fileRef = 78441343F3904E829C75A3FA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_interpolation.inl */; };
+		98DC71FD81984B16A7298165 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/reciprocal.hpp */ = {isa = PBXBuildFile; fileRef = 2ED8C8341BFC40AFA9F82F19 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/reciprocal.hpp */; };
+		99444DC4326341289699C5EC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x3.hpp */ = {isa = PBXBuildFile; fileRef = B6130B9F65374FDDBCF35DD1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x3.hpp */; };
+		995778B1C2544CCD9AC1CA33 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x3.hpp */ = {isa = PBXBuildFile; fileRef = 28C41D1DA2BE4BDBBBB67A70 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x3.hpp */; };
+		99BBBED55C9C4AA9A75D7D05 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_half.inl */ = {isa = PBXBuildFile; fileRef = 1BCBB069C8EC4E55BD4A933E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_half.inl */; };
+		9ADA258F22CC4E5DA8295344 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extended_min_max.hpp */ = {isa = PBXBuildFile; fileRef = 767590EA10D14E189568817D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extended_min_max.hpp */; };
+		9B02B3698BBD4F70A2A230E4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/packing.hpp */ = {isa = PBXBuildFile; fileRef = 974BDA56446548A4BD729855 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/packing.hpp */; };
+		9BA664F85F84483CA4205B45 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_access.inl */ = {isa = PBXBuildFile; fileRef = D7ABCBC01CDF428A8C8688B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_access.inl */; };
+		9C45611E0A9949FDB9306438 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/integer.h */ = {isa = PBXBuildFile; fileRef = FAB5824E92654CF39D37CDD6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/integer.h */; };
+		9C50580349B842FCA3A8C9D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/orthonormalize.hpp */ = {isa = PBXBuildFile; fileRef = 0D0586A638F8402B8646AE23 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/orthonormalize.hpp */; };
+		9E3440F798944B37B98885A5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/glm.hpp */ = {isa = PBXBuildFile; fileRef = 6499FF6CB04447428CBFA723 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/glm.hpp */; };
+		9FCF5223635C4AB9A36B18D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_query.hpp */ = {isa = PBXBuildFile; fileRef = 5C669B8D3AB7495CB3B4A623 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_query.hpp */; };
+		A114B3E699714C098B1F0C02 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_major_storage.inl */ = {isa = PBXBuildFile; fileRef = BB3288B2F3C2455B89C6092C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_major_storage.inl */; };
+		A13C69F91AB948B49A277BDB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4.hpp */ = {isa = PBXBuildFile; fileRef = 46B7654258A749BF8105E1AB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4.hpp */; };
+		A3F0BF280B47443BA19FE725 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_aligned.hpp */ = {isa = PBXBuildFile; fileRef = DFE002436F5142158EF73F42 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_aligned.hpp */; };
+		A48965535C30450297854554 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_ptr.hpp */ = {isa = PBXBuildFile; fileRef = AF97A3103D974AF591709358 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_ptr.hpp */; };
+		A4E8DFD44BB34AD4942DD046 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_transform_2d.inl */ = {isa = PBXBuildFile; fileRef = 82F46CEA192E44F8A9C84AD7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_transform_2d.inl */; };
+		A5F4AEEF2E4C43C0AC2FF541 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/trigonometric.hpp */ = {isa = PBXBuildFile; fileRef = 42278561FEFF4F0B81DA0F18 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/trigonometric.hpp */; };
+		A63DF2C71D764AC2B53B1BD7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/closest_point.inl */ = {isa = PBXBuildFile; fileRef = 6AEE7EADB5D045AE8FA3CB3B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/closest_point.inl */; };
+		AC2D3E4DC893448386E80726 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_vector.inl */ = {isa = PBXBuildFile; fileRef = 6885767BCE374A1BAEF7B2C1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_vector.inl */; };
+		B0342599442F4E85BB7E4284 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/matrix.hpp */ = {isa = PBXBuildFile; fileRef = 0F1B888E158E4BEEB1E8C1FB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/matrix.hpp */; };
+		B0FA6D7229604ABD8464D7FF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/gradient_paint.inl */ = {isa = PBXBuildFile; fileRef = 65630C99DB3040279A090A29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/gradient_paint.inl */; };
+		B28CF94D9AA34321B92F885B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/ext.hpp */ = {isa = PBXBuildFile; fileRef = 1A196BD6174B457F970B14BD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/ext.hpp */; };
+		B4BA41E344354716B89EFA9C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_cross_product.hpp */ = {isa = PBXBuildFile; fileRef = 7FDC71D7A6B34BBA92CC5BD8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_cross_product.hpp */; };
+		B61D3ECEA0414BADBB22EE58 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/integer.inl */ = {isa = PBXBuildFile; fileRef = 0C75E13C2D064A7A9165BC5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/integer.inl */; };
+		B61DB0CAF8FF4685BECE2BA9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/epsilon.hpp */ = {isa = PBXBuildFile; fileRef = 1360AB3131924A238CACAF11 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/epsilon.hpp */; };
+		B782F14386B341338C5A498F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/integer.inl */ = {isa = PBXBuildFile; fileRef = 1DD01DCFD0AA47CCA8D33558 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/integer.inl */; };
+		B8578242B0B44CBABC441E62 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat.hpp */ = {isa = PBXBuildFile; fileRef = C99B2D5DBAB34A97B44DE149 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat.hpp */; };
+		B94425EED53C4C49B1DFD5E7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/random.hpp */ = {isa = PBXBuildFile; fileRef = D3F293AB478B41C5BF75F10F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/random.hpp */; };
+		BD7F48B7169A4E3889BBA075 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_inverse.inl */ = {isa = PBXBuildFile; fileRef = 8DBA6F624AC24980816D0C84 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_inverse.inl */; };
+		BEC37C2832A24C22B88D14B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/bitfield.hpp */ = {isa = PBXBuildFile; fileRef = EEDC386D30F3406C8CA7DF92 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/bitfield.hpp */; };
+		BF74920EBA864E36A76BE169 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/optimum_pow.inl */ = {isa = PBXBuildFile; fileRef = 050D601A2F6946C49F3C1398 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/optimum_pow.inl */; };
+		C24E133101C44A1EB14F9B03 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x4.inl */ = {isa = PBXBuildFile; fileRef = E2121E44BCDB45DEB2A21F1B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x4.inl */; };
+		C2CA841445A249B5856655BD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer.hpp */ = {isa = PBXBuildFile; fileRef = 7999DFD3432C4D10974D4887 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer.hpp */; };
+		C39BEBA885AD49AB8D4FF42A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/functions.hpp */ = {isa = PBXBuildFile; fileRef = 3A3BEE824ECE4AADB5B39154 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/functions.hpp */; };
+		C410F72BA8A446BCB4DEE840 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer.inl */ = {isa = PBXBuildFile; fileRef = A5DEFBCA8E22408497E05779 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer.inl */; };
+		C4FF0FBAEB1743F59EB8C2F7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/component_wise.hpp */ = {isa = PBXBuildFile; fileRef = 5A939AA090274293B7EA0F77 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/component_wise.hpp */; };
+		C512A65D4B5D44BDAA83BC9E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_cross_product.inl */ = {isa = PBXBuildFile; fileRef = 906407BBE145497D95E69F18 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_cross_product.inl */; };
+		C55B86FEBD6046239E91AFC6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_decompose.inl */ = {isa = PBXBuildFile; fileRef = 9DA90ABA9A314F47A42EEABC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_decompose.inl */; };
+		C7692CA467E84761B40FC466 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space_YCoCg.hpp */ = {isa = PBXBuildFile; fileRef = 477C3208EFD7455E8DD94F3A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space_YCoCg.hpp */; };
+		C885206C93B34CE087317771 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/vec1.hpp */ = {isa = PBXBuildFile; fileRef = B9ACFB1751A6489AB27D1DD6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/vec1.hpp */; };
+		C8C5D0DD5D204451BCC53E3E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix.inl */ = {isa = PBXBuildFile; fileRef = 5D1BA2FEBE3446208FC0E0BE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix.inl */; };
+		C9C35E97EBF84CE888A3B845 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x3.inl */ = {isa = PBXBuildFile; fileRef = 083D2D73CFD140AAB95161DF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x3.inl */; };
+		CA1A479DFD1F4263B647C9A2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_trigonometry.hpp */ = {isa = PBXBuildFile; fileRef = D82510BBB2CC46B7B9C46833 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_trigonometry.hpp */; };
+		CB97C8EE9682406A9A38B4EE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space.inl */ = {isa = PBXBuildFile; fileRef = 4FC646A6F27A4B8580E07C36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space.inl */; };
+		CBDA55229749472EB8052A7D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x3.inl */ = {isa = PBXBuildFile; fileRef = E1A83439E1E94759BD2298D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x3.inl */; };
+		CBF82D97B5FF4F3AB8F5E17E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_operation.hpp */ = {isa = PBXBuildFile; fileRef = E642A22CB4464D2BBF5891CB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_operation.hpp */; };
+		CE71B20174CA4F63A311E089 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/perpendicular.inl */ = {isa = PBXBuildFile; fileRef = 756082B8168A487AB980DB3D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/perpendicular.inl */; };
+		CF0012A0A1284291BBA6C504 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/float_notmalize.inl */ = {isa = PBXBuildFile; fileRef = A09D1795A7C54FD9A66761DD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/float_notmalize.inl */; };
+		CF816DB11B374E62BC6E0A01 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/std_based_type.inl */ = {isa = PBXBuildFile; fileRef = 0602E1AFA5CE47E0915AC650 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/std_based_type.inl */; };
+		D14F17E219104DA2985DE270 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/packing.h */ = {isa = PBXBuildFile; fileRef = EA28B2B5519E45BF8BC96381 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/packing.h */; };
+		D160FD8D54C146AD83BBC5EE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/polar_coordinates.inl */ = {isa = PBXBuildFile; fileRef = B006E0785EF74BFCACB28DF4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/polar_coordinates.inl */; };
+		D2AA820FD57F4F02A34872EB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/io.hpp */ = {isa = PBXBuildFile; fileRef = 0E21DF7EA4FA464CB42B9425 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/io.hpp */; };
+		D2B870456E9043F1AB98D8E7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x3.hpp */ = {isa = PBXBuildFile; fileRef = 150C05F6AB434B19817B0B9B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x3.hpp */; };
+		D4F58439AB4F4108A67F8FC9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_transform.inl */ = {isa = PBXBuildFile; fileRef = 0638F9DD48384F56B76834D6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_transform.inl */; };
+		D54E60EEADBE48A880CD430B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/quaternion.inl */ = {isa = PBXBuildFile; fileRef = 09997F6DC0E24ED5B494E8A1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/quaternion.inl */; };
+		D6E365C036664C92B3AFED53 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/bit.hpp */ = {isa = PBXBuildFile; fileRef = 1DEBC897515A4892946DC271 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/bit.hpp */; };
+		D857006FB2404AD2B9B1EE9D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x2.inl */ = {isa = PBXBuildFile; fileRef = 35BE877DC24C4E628FC5F4C3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x2.inl */; };
+		D89603BF26044901B78A8958 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/packing.hpp */ = {isa = PBXBuildFile; fileRef = 4527ED81FE6F448E848A04D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/packing.hpp */; };
+		D8B3CE7FA93E4B7585A42B0D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/intersect.hpp */ = {isa = PBXBuildFile; fileRef = 768CA990405440BA92B01F65 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/intersect.hpp */; };
+		DA3B1339367D4CAD8D5ECE90 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_precision.inl */ = {isa = PBXBuildFile; fileRef = ACCFE9235A804E7FA53E46BE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_precision.inl */; };
+		DAEFE57B9D28429AA1C1F602 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x4.hpp */ = {isa = PBXBuildFile; fileRef = 9C93B92204EF452481B4717F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x4.hpp */; };
+		DC04FCCFDBBA4677A963A05A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_normalized_axis.hpp */ = {isa = PBXBuildFile; fileRef = 77D23229C6E44D208251AFEE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_normalized_axis.hpp */; };
+		DCFB61248356412F83CBBEF1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_precision.hpp */ = {isa = PBXBuildFile; fileRef = 43B4A47AA70C4B16AD6CA857 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_precision.hpp */; };
+		DD2044BA75FD478F86252BA9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix_simd.inl */ = {isa = PBXBuildFile; fileRef = 2E8386CECED24D4BAE3FD644 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix_simd.inl */; };
+		DD774B81C6EB41638BF5E6E9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/projection.inl */ = {isa = PBXBuildFile; fileRef = A95E8BFB685445A9878690DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/projection.inl */; };
+		E0BA6B3B0EB24C458607DD42 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec3.hpp */ = {isa = PBXBuildFile; fileRef = 3E7AAD02711F4D73898B2E63 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec3.hpp */; };
+		E129C7698A354C2A97E5646D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix.hpp */ = {isa = PBXBuildFile; fileRef = 887E3ADA5D2D4C92B568326E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix.hpp */; };
+		E154E6C084AA46B69F72B789 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_angle.inl */ = {isa = PBXBuildFile; fileRef = 6F4E6A512F084034B4CDCD0B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_angle.inl */; };
+		E17531750C6B47588DE78C06 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/hash.hpp */ = {isa = PBXBuildFile; fileRef = A6D6ECD1685D40E192AF3A29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/hash.hpp */; };
+		E282363C9544431F8581E5B8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_multiplication.hpp */ = {isa = PBXBuildFile; fileRef = 5C77903B335D445985C92B36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_multiplication.hpp */; };
+		E35246B2B16C4F6D948E9B83 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_half.hpp */ = {isa = PBXBuildFile; fileRef = B3F53593186941898335B6B0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_half.hpp */; };
+		E3E23B18623F4302AA8CD816 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_trigonometry.inl */ = {isa = PBXBuildFile; fileRef = E565C6DEB20E493AB70FB2E6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_trigonometry.inl */; };
+		E680BD47D1514BE9A429C4C0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric_simd.inl */ = {isa = PBXBuildFile; fileRef = 1ED44F8B3BBB444D80A0B774 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric_simd.inl */; };
+		E697FC131D154C93ADEF7066 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x3.inl */ = {isa = PBXBuildFile; fileRef = 1324B93E11984EDC9455D10A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x3.inl */; };
+		E6B2E23E34834C3EB337DD11 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_vectorize.hpp */ = {isa = PBXBuildFile; fileRef = 2A6C6F003FE24C7091637989 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_vectorize.hpp */; };
+		E72A4950234E4693A8830EBC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec.inl */ = {isa = PBXBuildFile; fileRef = 3304B8C0A9CA487697BC6724 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec.inl */; };
+		E90BE80E7D2744579426841B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/common.hpp */ = {isa = PBXBuildFile; fileRef = 179034951B054B31AE7B101C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/common.hpp */; };
+		EBB97199FA7C4552882F3692 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/integer.hpp */ = {isa = PBXBuildFile; fileRef = 776B2716CD2046EEBAC28C5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/integer.hpp */; };
+		EBE251A44DBD478F8F551278 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/perpendicular.hpp */ = {isa = PBXBuildFile; fileRef = 8493FED0FED149AC842580A9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/perpendicular.hpp */; };
+		EE4A1BE55C734D15A11F406F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/associated_min_max.inl */ = {isa = PBXBuildFile; fileRef = F19803B11C5E47EC96E2213C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/associated_min_max.inl */; };
+		EEE477B38E1940DCA7AAF3E0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_float.hpp */ = {isa = PBXBuildFile; fileRef = E8BB9C171E854B7F852FF041 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_float.hpp */; };
+		EEE74B67A6A34B5BB1B9419C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/integer.hpp */ = {isa = PBXBuildFile; fileRef = D72805A2F75D47D3AEB3405D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/integer.hpp */; };
+		F17D487B0088456EBEE0EF97 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/spline.inl */ = {isa = PBXBuildFile; fileRef = 37CCC3DAC89C4C5BA8B1E539 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/spline.inl */; };
+		F286D40BF4C444B49CDA5A88 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x2.hpp */ = {isa = PBXBuildFile; fileRef = A034FDC3A8994EA2A55E385B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x2.hpp */; };
+		F36B2E7E179047E2B7A98546 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/dummy.cpp */ = {isa = PBXBuildFile; fileRef = 9B01533F71034105AAE92BA0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/dummy.cpp */; };
+		F80020D5677546B2B9E6A7B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec2.hpp */ = {isa = PBXBuildFile; fileRef = 80EF6B5DF10A4C4E9E6B4CBF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec2.hpp */; };
+		F836B685BB434EDB8C04985D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing.hpp */ = {isa = PBXBuildFile; fileRef = 697FAFD2B0AC4292A368F86F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing.hpp */; };
+		F87FFB317369471D97BA4BE7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform.inl */ = {isa = PBXBuildFile; fileRef = D85D99CC20F6490197856AB1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform.inl */; };
+		F9082BDBBB574E16AA1F1168 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_integer.hpp */ = {isa = PBXBuildFile; fileRef = E0AB151228334473A092EA5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_integer.hpp */; };
+		FB48DAE2E05F46CF88D07DFF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normalize_dot.hpp */ = {isa = PBXBuildFile; fileRef = A6F078859A714BC78442E5CF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normalize_dot.hpp */; };
+		FC09FB961EE24163ADE97159 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x3.hpp */ = {isa = PBXBuildFile; fileRef = ADB9328B6617482982AE6FDB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x3.hpp */; };
+		FD1696634D8B4761956A9297 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/common.h */ = {isa = PBXBuildFile; fileRef = 49AF6347EDE642569AD8502C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/common.h */; };
+		FE2076F0DA2A4CB284F0A354 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/bitfield.inl */ = {isa = PBXBuildFile; fileRef = EC34EDE50C874636BCA4DB28 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/bitfield.inl */; };
+		FEAF7984C3B6499DA23C1D92 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing.inl */ = {isa = PBXBuildFile; fileRef = 6E9F099B474342D78FB144CF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing.inl */; };
+		FEF44454BF624EEBBFBCB7ED /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/compatibility.inl */ = {isa = PBXBuildFile; fileRef = 7D9ACF494EE74C61A24AC1D4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/compatibility.inl */; };
+		FF874A9AB0CF4956AA56E072 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_noise.hpp */ = {isa = PBXBuildFile; fileRef = 6D2E1D4FA97C413BA25E8F83 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_noise.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		09FC1F22E8FE42149F7B8660 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3E3373468B834367844A24F3 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7719B3543EEC42E5A101D8BD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		81367DE06EE2485E9B1ADD44 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0B6F01AD55C54909B5DFD364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA1FDF488D24878BBF3B1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D470BA7F444D9F8F77915A;
+			remoteInfo = ALL_BUILD;
+		};
+		6A72450A63A74095BEEFB64C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA1FDF488D24878BBF3B1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD714FD53C54B24BA16DC63;
+			remoteInfo = ZERO_CHECK;
+		};
+		DE0ACE26C04D4FBCA0CAE962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA1FDF488D24878BBF3B1C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B5C58CCF37433CB2330063;
+			remoteInfo = glm_dummy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01320A3529304815AE641CA6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/quaternion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quaternion.hpp; path = glm/gtx/quaternion.hpp; sourceTree = SOURCE_ROOT; };
+		03E70D5D5E9142C5A78DAED8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/log_base.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = log_base.inl; path = glm/gtx/log_base.inl; sourceTree = SOURCE_ROOT; };
+		044A024CAB8F4ACF859001B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/raw_data.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = raw_data.inl; path = glm/gtx/raw_data.inl; sourceTree = SOURCE_ROOT; };
+		0503707813594E7B975392EA /* /Users/code/Desktop/hello-bgfx/external/glm/readme.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = readme.md; path = readme.md; sourceTree = SOURCE_ROOT; };
+		050D601A2F6946C49F3C1398 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/optimum_pow.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = optimum_pow.inl; path = glm/gtx/optimum_pow.inl; sourceTree = SOURCE_ROOT; };
+		050F0448020C45AABC380057 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_trait.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_trait.hpp; path = glm/gtx/type_trait.hpp; sourceTree = SOURCE_ROOT; };
+		0602E1AFA5CE47E0915AC650 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/std_based_type.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = std_based_type.inl; path = glm/gtx/std_based_type.inl; sourceTree = SOURCE_ROOT; };
+		0638F9DD48384F56B76834D6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_transform.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_transform.inl; path = glm/gtc/matrix_transform.inl; sourceTree = SOURCE_ROOT; };
+		07C41E7459614FB0A44CC66D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat4x2.hpp; path = glm/detail/type_mat4x2.hpp; sourceTree = SOURCE_ROOT; };
+		08092664C12C4AD58238BDD2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_interpolation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_interpolation.hpp; path = glm/gtx/matrix_interpolation.hpp; sourceTree = SOURCE_ROOT; };
+		083D2D73CFD140AAB95161DF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x3.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat3x3.inl; path = glm/detail/type_mat3x3.inl; sourceTree = SOURCE_ROOT; };
+		0884A563C79740B4A8517F8E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space_YCoCg.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = color_space_YCoCg.inl; path = glm/gtx/color_space_YCoCg.inl; sourceTree = SOURCE_ROOT; };
+		08F44424B4184D439452018C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/ulp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ulp.hpp; path = glm/gtc/ulp.hpp; sourceTree = SOURCE_ROOT; };
+		09997F6DC0E24ED5B494E8A1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/quaternion.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = quaternion.inl; path = glm/gtx/quaternion.inl; sourceTree = SOURCE_ROOT; };
+		0ACF94A480084CFF933DD7E9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec1.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_vec1.inl; path = glm/detail/type_vec1.inl; sourceTree = SOURCE_ROOT; };
+		0B1D19FE0B15419F885BCDB5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transform2.hpp; path = glm/gtx/transform2.hpp; sourceTree = SOURCE_ROOT; };
+		0BECD9D1A58A48EF96EB803E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/functions.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = functions.inl; path = glm/gtc/functions.inl; sourceTree = SOURCE_ROOT; };
+		0C75E13C2D064A7A9165BC5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/integer.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = integer.inl; path = glm/gtc/integer.inl; sourceTree = SOURCE_ROOT; };
+		0D0586A638F8402B8646AE23 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/orthonormalize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = orthonormalize.hpp; path = glm/gtx/orthonormalize.hpp; sourceTree = SOURCE_ROOT; };
+		0E21DF7EA4FA464CB42B9425 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/io.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = io.hpp; path = glm/gtx/io.hpp; sourceTree = SOURCE_ROOT; };
+		0F1B888E158E4BEEB1E8C1FB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/matrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix.hpp; path = glm/matrix.hpp; sourceTree = SOURCE_ROOT; };
+		0F229CD39EDA411A8A0A37CE /* glm_dummy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = glm_dummy; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B1C95261F545008C5A5CEF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/euler_angles.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = euler_angles.hpp; path = glm/gtx/euler_angles.hpp; sourceTree = SOURCE_ROOT; };
+		11A368922FE74652A8BB3CAF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/constants.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = constants.inl; path = glm/gtc/constants.inl; sourceTree = SOURCE_ROOT; };
+		1324B93E11984EDC9455D10A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x3.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat2x3.inl; path = glm/detail/type_mat2x3.inl; sourceTree = SOURCE_ROOT; };
+		1360AB3131924A238CACAF11 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/epsilon.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = epsilon.hpp; path = glm/gtc/epsilon.hpp; sourceTree = SOURCE_ROOT; };
+		150C05F6AB434B19817B0B9B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat2x3.hpp; path = glm/detail/type_mat2x3.hpp; sourceTree = SOURCE_ROOT; };
+		150F2FFD01AA4B558DCBAEC8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/round.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = round.hpp; path = glm/gtc/round.hpp; sourceTree = SOURCE_ROOT; };
+		179034951B054B31AE7B101C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = common.hpp; path = glm/gtx/common.hpp; sourceTree = SOURCE_ROOT; };
+		17F345950C9D494DA1425C2A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_angle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vector_angle.hpp; path = glm/gtx/vector_angle.hpp; sourceTree = SOURCE_ROOT; };
+		182BAB8F25544CB5B37C6A1C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extended_min_max.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = extended_min_max.inl; path = glm/gtx/extended_min_max.inl; sourceTree = SOURCE_ROOT; };
+		18EDD44472294C6298683CD1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_common_simd.inl; path = glm/detail/func_common_simd.inl; sourceTree = SOURCE_ROOT; };
+		1A196BD6174B457F970B14BD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/ext.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ext.hpp; path = glm/ext.hpp; sourceTree = SOURCE_ROOT; };
+		1BCBB069C8EC4E55BD4A933E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_half.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_half.inl; path = glm/detail/type_half.inl; sourceTree = SOURCE_ROOT; };
+		1C5967B74A8441359061EFED /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat4x3.hpp; path = glm/detail/type_mat4x3.hpp; sourceTree = SOURCE_ROOT; };
+		1D445EA4DB464F519408E40C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/spline.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = spline.hpp; path = glm/gtx/spline.hpp; sourceTree = SOURCE_ROOT; };
+		1DD01DCFD0AA47CCA8D33558 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/integer.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = integer.inl; path = glm/gtx/integer.inl; sourceTree = SOURCE_ROOT; };
+		1DEBC897515A4892946DC271 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/bit.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = bit.hpp; path = glm/gtx/bit.hpp; sourceTree = SOURCE_ROOT; };
+		1ED44F8B3BBB444D80A0B774 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_geometric_simd.inl; path = glm/detail/func_geometric_simd.inl; sourceTree = SOURCE_ROOT; };
+		1EF6A6D247734DAB8F70DFDD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_relational.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scalar_relational.hpp; path = glm/gtx/scalar_relational.hpp; sourceTree = SOURCE_ROOT; };
+		213FD8981A0246F08BF5EFAE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_geometric.inl; path = glm/detail/func_geometric.inl; sourceTree = SOURCE_ROOT; };
+		220F910737D64F899BE20505 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat3x2.hpp; path = glm/mat3x2.hpp; sourceTree = SOURCE_ROOT; };
+		24954BAADB05400DAF012DF3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = quaternion_simd.inl; path = glm/gtc/quaternion_simd.inl; sourceTree = SOURCE_ROOT; };
+		259324B0D8854FDC931D4994 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_inverse.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_inverse.hpp; path = glm/gtc/matrix_inverse.hpp; sourceTree = SOURCE_ROOT; };
+		25A10887513B4F308BF779A4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_encoding.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_encoding.hpp; path = glm/gtx/color_encoding.hpp; sourceTree = SOURCE_ROOT; };
+		26338C06E3FE44B4AC229CB9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec2.hpp; path = glm/vec2.hpp; sourceTree = SOURCE_ROOT; };
+		278D6E2F2C414495854FDC41 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/glm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glm.cpp; path = glm/detail/glm.cpp; sourceTree = SOURCE_ROOT; };
+		28C41D1DA2BE4BDBBBB67A70 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat4x3.hpp; path = glm/mat4x3.hpp; sourceTree = SOURCE_ROOT; };
+		29C32287FC44482AA22433D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x4.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat4x4.hpp; path = glm/mat4x4.hpp; sourceTree = SOURCE_ROOT; };
+		2A6C6F003FE24C7091637989 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_vectorize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = _vectorize.hpp; path = glm/detail/_vectorize.hpp; sourceTree = SOURCE_ROOT; };
+		2B33BC2305D44524ADD5D691 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/norm.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = norm.inl; path = glm/gtx/norm.inl; sourceTree = SOURCE_ROOT; };
+		2E8386CECED24D4BAE3FD644 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_matrix_simd.inl; path = glm/detail/func_matrix_simd.inl; sourceTree = SOURCE_ROOT; };
+		2ED8C8341BFC40AFA9F82F19 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/reciprocal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reciprocal.hpp; path = glm/gtc/reciprocal.hpp; sourceTree = SOURCE_ROOT; };
+		2FB287EFEA6E4420A845CB7C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/projection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = projection.hpp; path = glm/gtx/projection.hpp; sourceTree = SOURCE_ROOT; };
+		30F497C23983454796E4FE4A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/bit.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bit.inl; path = glm/gtx/bit.inl; sourceTree = SOURCE_ROOT; };
+		312F9C8895AF40C1816E5073 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/exponential.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exponential.hpp; path = glm/exponential.hpp; sourceTree = SOURCE_ROOT; };
+		3279AC50FD6640FF8861FB5F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normal.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = normal.inl; path = glm/gtx/normal.inl; sourceTree = SOURCE_ROOT; };
+		3304B8C0A9CA487697BC6724 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_vec.inl; path = glm/detail/type_vec.inl; sourceTree = SOURCE_ROOT; };
+		35BE877DC24C4E628FC5F4C3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x2.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat4x2.inl; path = glm/detail/type_mat4x2.inl; sourceTree = SOURCE_ROOT; };
+		37CCC3DAC89C4C5BA8B1E539 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/spline.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = spline.inl; path = glm/gtx/spline.inl; sourceTree = SOURCE_ROOT; };
+		39402727195F4F22AB980595 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/associated_min_max.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = associated_min_max.hpp; path = glm/gtx/associated_min_max.hpp; sourceTree = SOURCE_ROOT; };
+		39A1A08D1394477CB797FCD4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/orthonormalize.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = orthonormalize.inl; path = glm/gtx/orthonormalize.inl; sourceTree = SOURCE_ROOT; };
+		3A3BEE824ECE4AADB5B39154 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/functions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = functions.hpp; path = glm/gtc/functions.hpp; sourceTree = SOURCE_ROOT; };
+		3A91929E715E4B98B523C866 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = func_exponential.hpp; path = glm/detail/func_exponential.hpp; sourceTree = SOURCE_ROOT; };
+		3AD05C7D19DC4DCC884F6732 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/vec1.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vec1.inl; path = glm/gtc/vec1.inl; sourceTree = SOURCE_ROOT; };
+		3D9572BB68014F1F8AF998BC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/closest_point.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = closest_point.hpp; path = glm/gtx/closest_point.hpp; sourceTree = SOURCE_ROOT; };
+		3E7AAD02711F4D73898B2E63 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_vec3.hpp; path = glm/detail/type_vec3.hpp; sourceTree = SOURCE_ROOT; };
+		3FDF7CE6CFCA403B8F1A859E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_features.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = _features.hpp; path = glm/detail/_features.hpp; sourceTree = SOURCE_ROOT; };
+		41E5BB9EED43473BB27E2E16 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_packing_simd.inl; path = glm/detail/func_packing_simd.inl; sourceTree = SOURCE_ROOT; };
+		42278561FEFF4F0B81DA0F18 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/trigonometric.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = trigonometric.hpp; path = glm/trigonometric.hpp; sourceTree = SOURCE_ROOT; };
+		425711E694E2414EBC7E6A51 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = func_common.hpp; path = glm/detail/func_common.hpp; sourceTree = SOURCE_ROOT; };
+		43B4A47AA70C4B16AD6CA857 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_precision.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_precision.hpp; path = glm/gtc/type_precision.hpp; sourceTree = SOURCE_ROOT; };
+		43D8CAF2A01249DF95BA8C1F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_exponential.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fast_exponential.inl; path = glm/gtx/fast_exponential.inl; sourceTree = SOURCE_ROOT; };
+		44129EE62C9E4D8A9EB0B8D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_square_root.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fast_square_root.inl; path = glm/gtx/fast_square_root.inl; sourceTree = SOURCE_ROOT; };
+		442656DB7B524620AEE58C5F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/geometric.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geometric.h; path = glm/simd/geometric.h; sourceTree = SOURCE_ROOT; };
+		4457CD4003764908BB759DDB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/common.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = common.inl; path = glm/gtx/common.inl; sourceTree = SOURCE_ROOT; };
+		4527ED81FE6F448E848A04D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/packing.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = packing.hpp; path = glm/gtc/packing.hpp; sourceTree = SOURCE_ROOT; };
+		456B0B2DB769426EB64AA7F4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_common.inl; path = glm/detail/func_common.inl; sourceTree = SOURCE_ROOT; };
+		462409BA0A5B4FD19118B2F7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_exponential_simd.inl; path = glm/detail/func_exponential_simd.inl; sourceTree = SOURCE_ROOT; };
+		46B7654258A749BF8105E1AB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_vec4.hpp; path = glm/detail/type_vec4.hpp; sourceTree = SOURCE_ROOT; };
+		477C3208EFD7455E8DD94F3A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space_YCoCg.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_space_YCoCg.hpp; path = glm/gtx/color_space_YCoCg.hpp; sourceTree = SOURCE_ROOT; };
+		47BA623E2C504270AB7DF203 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/ulp.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = ulp.inl; path = glm/gtc/ulp.inl; sourceTree = SOURCE_ROOT; };
+		484ED923B8AD4E66A92934A9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_exponential.inl; path = glm/detail/func_exponential.inl; sourceTree = SOURCE_ROOT; };
+		488089519FDE4432A5CFD2A6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/integer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = integer.hpp; path = glm/gtc/integer.hpp; sourceTree = SOURCE_ROOT; };
+		49412F796F5A435A94B26790 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/packing.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = packing.inl; path = glm/gtc/packing.inl; sourceTree = SOURCE_ROOT; };
+		49480197F8E249F1BE544D83 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform2.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = transform2.inl; path = glm/gtx/transform2.inl; sourceTree = SOURCE_ROOT; };
+		49AF6347EDE642569AD8502C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = glm/simd/common.h; sourceTree = SOURCE_ROOT; };
+		4A0595DB93B1485D9E9465DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_aligned.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_aligned.hpp; path = glm/gtx/type_aligned.hpp; sourceTree = SOURCE_ROOT; };
+		4AAFBC7343244BBF8E1F48C6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vec_swizzle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec_swizzle.hpp; path = glm/gtx/vec_swizzle.hpp; sourceTree = SOURCE_ROOT; };
+		4B9FB89E5A0F46B4B976B476 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/color_space.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_space.hpp; path = glm/gtc/color_space.hpp; sourceTree = SOURCE_ROOT; };
+		4BF9887E63254BE7925E3F98 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = glm/simd/platform.h; sourceTree = SOURCE_ROOT; };
+		4BFE343695D4465CAE26B4B8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/vector_relational.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vector_relational.h; path = glm/simd/vector_relational.h; sourceTree = SOURCE_ROOT; };
+		4E0F103BAC6F4125BBA17B03 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/wrap.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = wrap.inl; path = glm/gtx/wrap.inl; sourceTree = SOURCE_ROOT; };
+		4EC0BE3FC32744E8A523FD55 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_swizzle_func.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = _swizzle_func.hpp; path = glm/detail/_swizzle_func.hpp; sourceTree = SOURCE_ROOT; };
+		4FC646A6F27A4B8580E07C36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = color_space.inl; path = glm/gtx/color_space.inl; sourceTree = SOURCE_ROOT; };
+		4FE15B5418954E858CDA0917 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/geometric.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = geometric.hpp; path = glm/geometric.hpp; sourceTree = SOURCE_ROOT; };
+		512CAB2AF2614496BC531AC0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_fixes.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = _fixes.hpp; path = glm/detail/_fixes.hpp; sourceTree = SOURCE_ROOT; };
+		517178C9AB1049F28692CA39 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/mixed_product.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mixed_product.hpp; path = glm/gtx/mixed_product.hpp; sourceTree = SOURCE_ROOT; };
+		53BE1E30390C4AEA940CC26C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat4x4.inl; path = glm/detail/type_mat4x4.inl; sourceTree = SOURCE_ROOT; };
+		540E2776040E47D4A32E3ACC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_gentype.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_gentype.inl; path = glm/detail/type_gentype.inl; sourceTree = SOURCE_ROOT; };
+		58CBF157180047ABB95E2493 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/noise.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = noise.inl; path = glm/gtc/noise.inl; sourceTree = SOURCE_ROOT; };
+		5A939AA090274293B7EA0F77 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/component_wise.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = component_wise.hpp; path = glm/gtx/component_wise.hpp; sourceTree = SOURCE_ROOT; };
+		5AF764B208294A88914D6384 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_relational.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = scalar_relational.inl; path = glm/gtx/scalar_relational.inl; sourceTree = SOURCE_ROOT; };
+		5AF9210301414ED390B88DCC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/dual_quaternion.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = dual_quaternion.inl; path = glm/gtx/dual_quaternion.inl; sourceTree = SOURCE_ROOT; };
+		5B19E3417176437A85DBF08F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x2.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat2x2.inl; path = glm/detail/type_mat2x2.inl; sourceTree = SOURCE_ROOT; };
+		5C669B8D3AB7495CB3B4A623 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_query.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_query.hpp; path = glm/gtx/matrix_query.hpp; sourceTree = SOURCE_ROOT; };
+		5C77903B335D445985C92B36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_multiplication.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scalar_multiplication.hpp; path = glm/gtx/scalar_multiplication.hpp; sourceTree = SOURCE_ROOT; };
+		5D1BA2FEBE3446208FC0E0BE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_matrix.inl; path = glm/detail/func_matrix.inl; sourceTree = SOURCE_ROOT; };
+		5D8A9E7E4F8743A388F0B32B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_transform_2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_transform_2d.hpp; path = glm/gtx/matrix_transform_2d.hpp; sourceTree = SOURCE_ROOT; };
+		5E465876BDFD4A21AD7F8185 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_normalized_axis.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = rotate_normalized_axis.inl; path = glm/gtx/rotate_normalized_axis.inl; sourceTree = SOURCE_ROOT; };
+		603228A122F34F5D9BD1D1E3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_gentype.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_gentype.hpp; path = glm/detail/type_gentype.hpp; sourceTree = SOURCE_ROOT; };
+		648F95815F914158935BD226 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_vec1.hpp; path = glm/detail/type_vec1.hpp; sourceTree = SOURCE_ROOT; };
+		6499FF6CB04447428CBFA723 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/glm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = glm.hpp; path = glm/glm.hpp; sourceTree = SOURCE_ROOT; };
+		65630C99DB3040279A090A29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/gradient_paint.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gradient_paint.inl; path = glm/gtx/gradient_paint.inl; sourceTree = SOURCE_ROOT; };
+		656C1E62EABD4BFA878AB1DA /* /Users/code/Desktop/hello-bgfx/external/glm/util/glm.natvis */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = glm.natvis; path = util/glm.natvis; sourceTree = SOURCE_ROOT; };
+		6613FF45EF6045198B735308 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat3x3.hpp; path = glm/mat3x3.hpp; sourceTree = SOURCE_ROOT; };
+		66A8E541611448779B57E1C1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = func_vector_relational.hpp; path = glm/detail/func_vector_relational.hpp; sourceTree = SOURCE_ROOT; };
+		67606A55FC104FAB9AA832B0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = func_geometric.hpp; path = glm/detail/func_geometric.hpp; sourceTree = SOURCE_ROOT; };
+		6885767BCE374A1BAEF7B2C1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_vector.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = rotate_vector.inl; path = glm/gtx/rotate_vector.inl; sourceTree = SOURCE_ROOT; };
+		68E3F996B7C24E3E99C95B8E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_query.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vector_query.inl; path = glm/gtx/vector_query.inl; sourceTree = SOURCE_ROOT; };
+		68FA7C33CCB14BEB95410583 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec2.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_vec2.inl; path = glm/detail/type_vec2.inl; sourceTree = SOURCE_ROOT; };
+		697FAFD2B0AC4292A368F86F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = func_packing.hpp; path = glm/detail/func_packing.hpp; sourceTree = SOURCE_ROOT; };
+		6AEE7EADB5D045AE8FA3CB3B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/closest_point.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = closest_point.inl; path = glm/gtx/closest_point.inl; sourceTree = SOURCE_ROOT; };
+		6D2E1D4FA97C413BA25E8F83 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_noise.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = _noise.hpp; path = glm/detail/_noise.hpp; sourceTree = SOURCE_ROOT; };
+		6E9F099B474342D78FB144CF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_packing.inl; path = glm/detail/func_packing.inl; sourceTree = SOURCE_ROOT; };
+		6ED2DA74FD61420BA7FCD525 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/handed_coordinate_space.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = handed_coordinate_space.inl; path = glm/gtx/handed_coordinate_space.inl; sourceTree = SOURCE_ROOT; };
+		6F4E6A512F084034B4CDCD0B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_angle.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vector_angle.inl; path = glm/gtx/vector_angle.inl; sourceTree = SOURCE_ROOT; };
+		6F867EB468024A269AC92DEA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/range.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range.hpp; path = glm/gtx/range.hpp; sourceTree = SOURCE_ROOT; };
+		712872ADFD384432A61C3AAA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/io.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = io.inl; path = glm/gtx/io.inl; sourceTree = SOURCE_ROOT; };
+		756082B8168A487AB980DB3D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/perpendicular.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = perpendicular.inl; path = glm/gtx/perpendicular.inl; sourceTree = SOURCE_ROOT; };
+		756F4950A3DB4DEFB1327A0B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/std_based_type.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = std_based_type.hpp; path = glm/gtx/std_based_type.hpp; sourceTree = SOURCE_ROOT; };
+		76328529E9E3436C8768B1D6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/noise.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = noise.hpp; path = glm/gtc/noise.hpp; sourceTree = SOURCE_ROOT; };
+		767590EA10D14E189568817D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extended_min_max.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = extended_min_max.hpp; path = glm/gtx/extended_min_max.hpp; sourceTree = SOURCE_ROOT; };
+		768CA990405440BA92B01F65 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/intersect.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intersect.hpp; path = glm/gtx/intersect.hpp; sourceTree = SOURCE_ROOT; };
+		771D9CD0722E4306A04EE5D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/precision.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precision.hpp; path = glm/detail/precision.hpp; sourceTree = SOURCE_ROOT; };
+		776B2716CD2046EEBAC28C5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/integer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = integer.hpp; path = glm/gtx/integer.hpp; sourceTree = SOURCE_ROOT; };
+		77D23229C6E44D208251AFEE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_normalized_axis.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rotate_normalized_axis.hpp; path = glm/gtx/rotate_normalized_axis.hpp; sourceTree = SOURCE_ROOT; };
+		78441343F3904E829C75A3FA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_interpolation.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_interpolation.inl; path = glm/gtx/matrix_interpolation.inl; sourceTree = SOURCE_ROOT; };
+		78E3250BA31D47E89C84CF31 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/component_wise.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = component_wise.inl; path = glm/gtx/component_wise.inl; sourceTree = SOURCE_ROOT; };
+		7999DFD3432C4D10974D4887 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = func_integer.hpp; path = glm/detail/func_integer.hpp; sourceTree = SOURCE_ROOT; };
+		7A11E2EB49E44350A9A177B5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/intersect.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = intersect.inl; path = glm/gtx/intersect.inl; sourceTree = SOURCE_ROOT; };
+		7A4AE67FBFF7498480799F25 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x4.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat3x4.inl; path = glm/detail/type_mat3x4.inl; sourceTree = SOURCE_ROOT; };
+		7C57F41BB72A47ACA78D6A86 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_query.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_query.inl; path = glm/gtx/matrix_query.inl; sourceTree = SOURCE_ROOT; };
+		7D2F4A82921A45B9A22E1D57 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_trigonometric_simd.inl; path = glm/detail/func_trigonometric_simd.inl; sourceTree = SOURCE_ROOT; };
+		7D9ACF494EE74C61A24AC1D4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/compatibility.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = compatibility.inl; path = glm/gtx/compatibility.inl; sourceTree = SOURCE_ROOT; };
+		7E25CED7693D4C36B5425E65 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/euler_angles.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = euler_angles.inl; path = glm/gtx/euler_angles.inl; sourceTree = SOURCE_ROOT; };
+		7F2E994490EA4600BCEF0676 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/constants.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = constants.hpp; path = glm/gtc/constants.hpp; sourceTree = SOURCE_ROOT; };
+		7FDC71D7A6B34BBA92CC5BD8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_cross_product.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_cross_product.hpp; path = glm/gtx/matrix_cross_product.hpp; sourceTree = SOURCE_ROOT; };
+		80EF6B5DF10A4C4E9E6B4CBF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_vec2.hpp; path = glm/detail/type_vec2.hpp; sourceTree = SOURCE_ROOT; };
+		8189634E21C54448849056EB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/dual_quaternion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dual_quaternion.hpp; path = glm/gtx/dual_quaternion.hpp; sourceTree = SOURCE_ROOT; };
+		819FF0BF7AD042EC9A5C42B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat.inl; path = glm/detail/type_mat.inl; sourceTree = SOURCE_ROOT; };
+		81AFF4FEDF5C46F9AE584018 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_transform.hpp; path = glm/gtc/matrix_transform.hpp; sourceTree = SOURCE_ROOT; };
+		82F46CEA192E44F8A9C84AD7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_transform_2d.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_transform_2d.inl; path = glm/gtx/matrix_transform_2d.inl; sourceTree = SOURCE_ROOT; };
+		835737CDA7264CCA9883C018 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_vector_relational_simd.inl; path = glm/detail/func_vector_relational_simd.inl; sourceTree = SOURCE_ROOT; };
+		8413CE16E9DB404B90D2A501 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_operation.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_operation.inl; path = glm/gtx/matrix_operation.inl; sourceTree = SOURCE_ROOT; };
+		8486C8CDD8AF492DAD2BB0A6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/polar_coordinates.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = polar_coordinates.hpp; path = glm/gtx/polar_coordinates.hpp; sourceTree = SOURCE_ROOT; };
+		8493FED0FED149AC842580A9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/perpendicular.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perpendicular.hpp; path = glm/gtx/perpendicular.hpp; sourceTree = SOURCE_ROOT; };
+		865481D26AA34B98B704BA23 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_vector_relational.inl; path = glm/detail/func_vector_relational.inl; sourceTree = SOURCE_ROOT; };
+		86EA72F0D208403DB7C4A837 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat4x4.hpp; path = glm/detail/type_mat4x4.hpp; sourceTree = SOURCE_ROOT; };
+		8706B7105FF74F73A09A679D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/reciprocal.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = reciprocal.inl; path = glm/gtc/reciprocal.inl; sourceTree = SOURCE_ROOT; };
+		887E3ADA5D2D4C92B568326E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = func_matrix.hpp; path = glm/detail/func_matrix.hpp; sourceTree = SOURCE_ROOT; };
+		88B13B97B071409880DAEAFB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/mixed_product.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mixed_product.inl; path = glm/gtx/mixed_product.inl; sourceTree = SOURCE_ROOT; };
+		8A194E96D27A4FD8BA33B922 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quaternion.hpp; path = glm/gtc/quaternion.hpp; sourceTree = SOURCE_ROOT; };
+		8DBA6F624AC24980816D0C84 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_inverse.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_inverse.inl; path = glm/gtc/matrix_inverse.inl; sourceTree = SOURCE_ROOT; };
+		8EC14B4EE9AD46CF980D1BD9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extend.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = extend.inl; path = glm/gtx/extend.inl; sourceTree = SOURCE_ROOT; };
+		8EE746619ABF4163B70A4C36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/hash.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = hash.inl; path = glm/gtx/hash.inl; sourceTree = SOURCE_ROOT; };
+		8F907E1AF55C46408B05FFB4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/color_space.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = color_space.inl; path = glm/gtc/color_space.inl; sourceTree = SOURCE_ROOT; };
+		8FB50F4B9A0F4F739E1609E2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_query.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vector_query.hpp; path = glm/gtx/vector_query.hpp; sourceTree = SOURCE_ROOT; };
+		8FBF8F7BDEC84A8CAF8A6869 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = quaternion.inl; path = glm/gtc/quaternion.inl; sourceTree = SOURCE_ROOT; };
+		906407BBE145497D95E69F18 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_cross_product.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_cross_product.inl; path = glm/gtx/matrix_cross_product.inl; sourceTree = SOURCE_ROOT; };
+		90E0C961C7B2491CB0FE3009 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/norm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = norm.hpp; path = glm/gtx/norm.hpp; sourceTree = SOURCE_ROOT; };
+		9605A4F4C19949328E241D59 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/setup.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = setup.hpp; path = glm/detail/setup.hpp; sourceTree = SOURCE_ROOT; };
+		974BDA56446548A4BD729855 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/packing.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = packing.hpp; path = glm/packing.hpp; sourceTree = SOURCE_ROOT; };
+		98E2D5AF18234FA7A394CA54 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/random.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = random.inl; path = glm/gtc/random.inl; sourceTree = SOURCE_ROOT; };
+		999748E9F8854A09B3195D6F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/raw_data.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = raw_data.hpp; path = glm/gtx/raw_data.hpp; sourceTree = SOURCE_ROOT; };
+		9A513AE4A85D4EA892E22641 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec3.hpp; path = glm/vec3.hpp; sourceTree = SOURCE_ROOT; };
+		9AA07DCC2F964E2F96E6F3A6 /* /Users/code/Desktop/hello-bgfx/external/glm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9B01533F71034105AAE92BA0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/dummy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dummy.cpp; path = glm/detail/dummy.cpp; sourceTree = SOURCE_ROOT; };
+		9C7DC63CC78B47CEB8816748 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_trait.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_trait.inl; path = glm/gtx/type_trait.inl; sourceTree = SOURCE_ROOT; };
+		9C93B92204EF452481B4717F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x4.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat2x4.hpp; path = glm/detail/type_mat2x4.hpp; sourceTree = SOURCE_ROOT; };
+		9D005E52974849A985619478 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat3x2.hpp; path = glm/detail/type_mat3x2.hpp; sourceTree = SOURCE_ROOT; };
+		9D3410665E69423C9236C745 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/number_precision.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = number_precision.hpp; path = glm/gtx/number_precision.hpp; sourceTree = SOURCE_ROOT; };
+		9DA90ABA9A314F47A42EEABC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_decompose.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_decompose.inl; path = glm/gtx/matrix_decompose.inl; sourceTree = SOURCE_ROOT; };
+		A034FDC3A8994EA2A55E385B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat2x2.hpp; path = glm/mat2x2.hpp; sourceTree = SOURCE_ROOT; };
+		A09D1795A7C54FD9A66761DD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/float_notmalize.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = float_notmalize.inl; path = glm/gtx/float_notmalize.inl; sourceTree = SOURCE_ROOT; };
+		A16B5E2F956D4A4EB53823AE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_vec4.inl; path = glm/detail/type_vec4.inl; sourceTree = SOURCE_ROOT; };
+		A5DEFBCA8E22408497E05779 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_integer.inl; path = glm/detail/func_integer.inl; sourceTree = SOURCE_ROOT; };
+		A6D6ECD1685D40E192AF3A29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/hash.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hash.hpp; path = glm/gtx/hash.hpp; sourceTree = SOURCE_ROOT; };
+		A6F078859A714BC78442E5CF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normalize_dot.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = normalize_dot.hpp; path = glm/gtx/normalize_dot.hpp; sourceTree = SOURCE_ROOT; };
+		A78E8AA44DC4499998B4493A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_ptr.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_ptr.inl; path = glm/gtc/type_ptr.inl; sourceTree = SOURCE_ROOT; };
+		A95E8BFB685445A9878690DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/projection.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = projection.inl; path = glm/gtx/projection.inl; sourceTree = SOURCE_ROOT; };
+		ACCFE9235A804E7FA53E46BE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_precision.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_precision.inl; path = glm/gtc/type_precision.inl; sourceTree = SOURCE_ROOT; };
+		ADB9328B6617482982AE6FDB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat3x3.hpp; path = glm/detail/type_mat3x3.hpp; sourceTree = SOURCE_ROOT; };
+		AF97A3103D974AF591709358 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_ptr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_ptr.hpp; path = glm/gtc/type_ptr.hpp; sourceTree = SOURCE_ROOT; };
+		B006E0785EF74BFCACB28DF4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/polar_coordinates.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = polar_coordinates.inl; path = glm/gtx/polar_coordinates.inl; sourceTree = SOURCE_ROOT; };
+		B2D8FACACB6F4344A80B9E39 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/epsilon.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = epsilon.inl; path = glm/gtc/epsilon.inl; sourceTree = SOURCE_ROOT; };
+		B3C8BC4E7BB944CCA10C8095 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transform.hpp; path = glm/gtx/transform.hpp; sourceTree = SOURCE_ROOT; };
+		B3F53593186941898335B6B0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_half.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_half.hpp; path = glm/detail/type_half.hpp; sourceTree = SOURCE_ROOT; };
+		B4F26B36DD9146A28DE24BC0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix.h; path = glm/simd/matrix.h; sourceTree = SOURCE_ROOT; };
+		B6130B9F65374FDDBCF35DD1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x3.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat2x3.hpp; path = glm/mat2x3.hpp; sourceTree = SOURCE_ROOT; };
+		B7DF3991B91E43CAB620922D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x4.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat3x4.hpp; path = glm/mat3x4.hpp; sourceTree = SOURCE_ROOT; };
+		B7E09C7607CD41A5B118B1FE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_vec4_simd.inl; path = glm/detail/type_vec4_simd.inl; sourceTree = SOURCE_ROOT; };
+		B81DEDA70C3040D385689767 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = normal.hpp; path = glm/gtx/normal.hpp; sourceTree = SOURCE_ROOT; };
+		B82AC5451A054581B8A03C49 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_exponential.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_exponential.hpp; path = glm/gtx/fast_exponential.hpp; sourceTree = SOURCE_ROOT; };
+		B8DD540EA8F94AC0A3FDB077 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x2.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat3x2.inl; path = glm/detail/type_mat3x2.inl; sourceTree = SOURCE_ROOT; };
+		B9ACFB1751A6489AB27D1DD6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/vec1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec1.hpp; path = glm/gtc/vec1.hpp; sourceTree = SOURCE_ROOT; };
+		BAA64CE88C7340C49C313020 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = func_trigonometric.hpp; path = glm/detail/func_trigonometric.hpp; sourceTree = SOURCE_ROOT; };
+		BAAF0CAF734D4895903E11BC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/log_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = log_base.hpp; path = glm/gtx/log_base.hpp; sourceTree = SOURCE_ROOT; };
+		BB3288B2F3C2455B89C6092C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_major_storage.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_major_storage.inl; path = glm/gtx/matrix_major_storage.inl; sourceTree = SOURCE_ROOT; };
+		BC727BF83533482E8E4657E8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_trigonometric.inl; path = glm/detail/func_trigonometric.inl; sourceTree = SOURCE_ROOT; };
+		BFEFF971DB644BC1BFB379B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x4.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat2x4.hpp; path = glm/mat2x4.hpp; sourceTree = SOURCE_ROOT; };
+		C076C475D6D34CCE8B2A97E8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rotate_vector.hpp; path = glm/gtx/rotate_vector.hpp; sourceTree = SOURCE_ROOT; };
+		C0F26333D76846909AAE66ED /* /Users/code/Desktop/hello-bgfx/external/glm/glm/fwd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fwd.hpp; path = glm/fwd.hpp; sourceTree = SOURCE_ROOT; };
+		C35CA6F4B374425BBBB100E7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/handed_coordinate_space.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = handed_coordinate_space.hpp; path = glm/gtx/handed_coordinate_space.hpp; sourceTree = SOURCE_ROOT; };
+		C394DB2EE77A47B085E6B589 /* /Users/code/Desktop/hello-bgfx/external/glm/manual.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = manual.md; path = manual.md; sourceTree = SOURCE_ROOT; };
+		C4C82A6632D84EC6AEFB4AF9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_space.hpp; path = glm/gtx/color_space.hpp; sourceTree = SOURCE_ROOT; };
+		C61B7885B893406E8FB87AA3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_int.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_int.hpp; path = glm/detail/type_int.hpp; sourceTree = SOURCE_ROOT; };
+		C8C79134CECF405E945A6FCF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_swizzle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = _swizzle.hpp; path = glm/detail/_swizzle.hpp; sourceTree = SOURCE_ROOT; };
+		C99B2D5DBAB34A97B44DE149 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat.hpp; path = glm/detail/type_mat.hpp; sourceTree = SOURCE_ROOT; };
+		CCF7402B1A1D4AF499301079 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/optimum_pow.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = optimum_pow.hpp; path = glm/gtx/optimum_pow.hpp; sourceTree = SOURCE_ROOT; };
+		CD5EC89705884B6D816A652A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/exponential.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = exponential.h; path = glm/simd/exponential.h; sourceTree = SOURCE_ROOT; };
+		CF3BB29A173D4B92AB43F26E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/string_cast.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = string_cast.inl; path = glm/gtx/string_cast.inl; sourceTree = SOURCE_ROOT; };
+		D3F293AB478B41C5BF75F10F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/random.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = random.hpp; path = glm/gtc/random.hpp; sourceTree = SOURCE_ROOT; };
+		D414DE7D9D194C53B23BB7AF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x4.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat3x4.hpp; path = glm/detail/type_mat3x4.hpp; sourceTree = SOURCE_ROOT; };
+		D5ADA540C9CB49B0BC55D619 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = common.hpp; path = glm/common.hpp; sourceTree = SOURCE_ROOT; };
+		D72805A2F75D47D3AEB3405D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/integer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = integer.hpp; path = glm/integer.hpp; sourceTree = SOURCE_ROOT; };
+		D72DDC5C1F0A44279CFEAFB6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/wrap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = wrap.hpp; path = glm/gtx/wrap.hpp; sourceTree = SOURCE_ROOT; };
+		D770B76211C74BB8BD9A1C1C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_major_storage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_major_storage.hpp; path = glm/gtx/matrix_major_storage.hpp; sourceTree = SOURCE_ROOT; };
+		D7ABCBC01CDF428A8C8688B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_access.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = matrix_access.inl; path = glm/gtc/matrix_access.inl; sourceTree = SOURCE_ROOT; };
+		D82510BBB2CC46B7B9C46833 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_trigonometry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_trigonometry.hpp; path = glm/gtx/fast_trigonometry.hpp; sourceTree = SOURCE_ROOT; };
+		D85D99CC20F6490197856AB1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = transform.inl; path = glm/gtx/transform.inl; sourceTree = SOURCE_ROOT; };
+		D8AF7C6F4129432DB4F2A3B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/round.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = round.inl; path = glm/gtc/round.inl; sourceTree = SOURCE_ROOT; };
+		D8BC130E3B204AD885520E6F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extend.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = extend.hpp; path = glm/gtx/extend.hpp; sourceTree = SOURCE_ROOT; };
+		D98ABFFE2EB84E41BCAA1554 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_decompose.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_decompose.hpp; path = glm/gtx/matrix_decompose.hpp; sourceTree = SOURCE_ROOT; };
+		D9C4562187AC492F8F4ACE07 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat4x4_simd.inl; path = glm/detail/type_mat4x4_simd.inl; sourceTree = SOURCE_ROOT; };
+		DFE002436F5142158EF73F42 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_aligned.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_aligned.hpp; path = glm/gtc/type_aligned.hpp; sourceTree = SOURCE_ROOT; };
+		E0181CF479D3455E9EBF1162 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_aligned.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_aligned.inl; path = glm/gtx/type_aligned.inl; sourceTree = SOURCE_ROOT; };
+		E03758E961C14D68B831B485 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/number_precision.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = number_precision.inl; path = glm/gtx/number_precision.inl; sourceTree = SOURCE_ROOT; };
+		E0AB151228334473A092EA5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_integer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_integer.hpp; path = glm/gtc/matrix_integer.hpp; sourceTree = SOURCE_ROOT; };
+		E1A83439E1E94759BD2298D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x3.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat4x3.inl; path = glm/detail/type_mat4x3.inl; sourceTree = SOURCE_ROOT; };
+		E2121E44BCDB45DEB2A21F1B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x4.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_mat2x4.inl; path = glm/detail/type_mat2x4.inl; sourceTree = SOURCE_ROOT; };
+		E50DAF5BF5304293AFC9AE4C /* /Users/code/Desktop/hello-bgfx/external/glm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E565C6DEB20E493AB70FB2E6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_trigonometry.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fast_trigonometry.inl; path = glm/gtx/fast_trigonometry.inl; sourceTree = SOURCE_ROOT; };
+		E642A22CB4464D2BBF5891CB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_operation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_operation.hpp; path = glm/gtx/matrix_operation.hpp; sourceTree = SOURCE_ROOT; };
+		E71673DE281448F594E2FD81 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_mat2x2.hpp; path = glm/detail/type_mat2x2.hpp; sourceTree = SOURCE_ROOT; };
+		E7716B4F3CAB4BBD9FA2CF5E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_vec.hpp; path = glm/detail/type_vec.hpp; sourceTree = SOURCE_ROOT; };
+		E820D9F0CE0145F2ADE7AE29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/gradient_paint.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gradient_paint.hpp; path = glm/gtx/gradient_paint.hpp; sourceTree = SOURCE_ROOT; };
+		E8BB9C171E854B7F852FF041 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_float.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_float.hpp; path = glm/detail/type_float.hpp; sourceTree = SOURCE_ROOT; };
+		E99AAF6F3B034EE29178EABC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x2.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mat4x2.hpp; path = glm/mat4x2.hpp; sourceTree = SOURCE_ROOT; };
+		E9B234A7EB7D45F8AD5B33DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vector_relational.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vector_relational.hpp; path = glm/vector_relational.hpp; sourceTree = SOURCE_ROOT; };
+		EA28B2B5519E45BF8BC96381 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/packing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = packing.h; path = glm/simd/packing.h; sourceTree = SOURCE_ROOT; };
+		EA5C06A32A8D4D84AE2D6DD2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_access.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix_access.hpp; path = glm/gtc/matrix_access.hpp; sourceTree = SOURCE_ROOT; };
+		EBD111332DA0451C8EE4224B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/compatibility.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = compatibility.hpp; path = glm/gtx/compatibility.hpp; sourceTree = SOURCE_ROOT; };
+		EC34EDE50C874636BCA4DB28 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/bitfield.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bitfield.inl; path = glm/gtc/bitfield.inl; sourceTree = SOURCE_ROOT; };
+		EE43B0FA4DEF488BA5F03D0D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec4.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec4.hpp; path = glm/vec4.hpp; sourceTree = SOURCE_ROOT; };
+		EEDC386D30F3406C8CA7DF92 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/bitfield.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = bitfield.hpp; path = glm/gtc/bitfield.hpp; sourceTree = SOURCE_ROOT; };
+		EFD55730B66D4BDF86D78A33 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer_simd.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = func_integer_simd.inl; path = glm/detail/func_integer_simd.inl; sourceTree = SOURCE_ROOT; };
+		F0C0252F978A4AF2AD27163E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normalize_dot.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = normalize_dot.inl; path = glm/gtx/normalize_dot.inl; sourceTree = SOURCE_ROOT; };
+		F13F37630ECD4FC4B3A8FFFD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_encoding.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = color_encoding.inl; path = glm/gtx/color_encoding.inl; sourceTree = SOURCE_ROOT; };
+		F19803B11C5E47EC96E2213C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/associated_min_max.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = associated_min_max.inl; path = glm/gtx/associated_min_max.inl; sourceTree = SOURCE_ROOT; };
+		F30A7938A2A04F0985C6FC77 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/string_cast.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = string_cast.hpp; path = glm/gtx/string_cast.hpp; sourceTree = SOURCE_ROOT; };
+		F3C11D63483E41B781C235F7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_square_root.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_square_root.hpp; path = glm/gtx/fast_square_root.hpp; sourceTree = SOURCE_ROOT; };
+		F4F02B875B1D43F395B055DE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec3.inl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = type_vec3.inl; path = glm/detail/type_vec3.inl; sourceTree = SOURCE_ROOT; };
+		F7D26366C34F4E4D8B1D3C82 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = glm/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FAB5824E92654CF39D37CDD6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/integer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = integer.h; path = glm/simd/integer.h; sourceTree = SOURCE_ROOT; };
+		FF1E071E626A4B5FB66402F0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/trigonometric.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = trigonometric.h; path = glm/simd/trigonometric.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		088633EE0E4C439EA648F205 /* Core Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FDF7CE6CFCA403B8F1A859E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_features.hpp */,
+				512CAB2AF2614496BC531AC0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_fixes.hpp */,
+				6D2E1D4FA97C413BA25E8F83 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_noise.hpp */,
+				C8C79134CECF405E945A6FCF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_swizzle.hpp */,
+				4EC0BE3FC32744E8A523FD55 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_swizzle_func.hpp */,
+				2A6C6F003FE24C7091637989 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/_vectorize.hpp */,
+				9B01533F71034105AAE92BA0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/dummy.cpp */,
+				425711E694E2414EBC7E6A51 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common.hpp */,
+				456B0B2DB769426EB64AA7F4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common.inl */,
+				18EDD44472294C6298683CD1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_common_simd.inl */,
+				3A91929E715E4B98B523C866 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential.hpp */,
+				484ED923B8AD4E66A92934A9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential.inl */,
+				462409BA0A5B4FD19118B2F7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_exponential_simd.inl */,
+				67606A55FC104FAB9AA832B0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric.hpp */,
+				213FD8981A0246F08BF5EFAE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric.inl */,
+				1ED44F8B3BBB444D80A0B774 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_geometric_simd.inl */,
+				7999DFD3432C4D10974D4887 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer.hpp */,
+				A5DEFBCA8E22408497E05779 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer.inl */,
+				EFD55730B66D4BDF86D78A33 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_integer_simd.inl */,
+				887E3ADA5D2D4C92B568326E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix.hpp */,
+				5D1BA2FEBE3446208FC0E0BE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix.inl */,
+				2E8386CECED24D4BAE3FD644 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_matrix_simd.inl */,
+				697FAFD2B0AC4292A368F86F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing.hpp */,
+				6E9F099B474342D78FB144CF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing.inl */,
+				41E5BB9EED43473BB27E2E16 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_packing_simd.inl */,
+				BAA64CE88C7340C49C313020 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric.hpp */,
+				BC727BF83533482E8E4657E8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric.inl */,
+				7D2F4A82921A45B9A22E1D57 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_trigonometric_simd.inl */,
+				66A8E541611448779B57E1C1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational.hpp */,
+				865481D26AA34B98B704BA23 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational.inl */,
+				835737CDA7264CCA9883C018 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/func_vector_relational_simd.inl */,
+				278D6E2F2C414495854FDC41 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/glm.cpp */,
+				771D9CD0722E4306A04EE5D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/precision.hpp */,
+				9605A4F4C19949328E241D59 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/setup.hpp */,
+				E8BB9C171E854B7F852FF041 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_float.hpp */,
+				603228A122F34F5D9BD1D1E3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_gentype.hpp */,
+				540E2776040E47D4A32E3ACC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_gentype.inl */,
+				B3F53593186941898335B6B0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_half.hpp */,
+				1BCBB069C8EC4E55BD4A933E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_half.inl */,
+				C61B7885B893406E8FB87AA3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_int.hpp */,
+				C99B2D5DBAB34A97B44DE149 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat.hpp */,
+				819FF0BF7AD042EC9A5C42B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat.inl */,
+				E71673DE281448F594E2FD81 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x2.hpp */,
+				5B19E3417176437A85DBF08F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x2.inl */,
+				150C05F6AB434B19817B0B9B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x3.hpp */,
+				1324B93E11984EDC9455D10A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x3.inl */,
+				9C93B92204EF452481B4717F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x4.hpp */,
+				E2121E44BCDB45DEB2A21F1B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat2x4.inl */,
+				9D005E52974849A985619478 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x2.hpp */,
+				B8DD540EA8F94AC0A3FDB077 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x2.inl */,
+				ADB9328B6617482982AE6FDB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x3.hpp */,
+				083D2D73CFD140AAB95161DF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x3.inl */,
+				D414DE7D9D194C53B23BB7AF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x4.hpp */,
+				7A4AE67FBFF7498480799F25 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat3x4.inl */,
+				07C41E7459614FB0A44CC66D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x2.hpp */,
+				35BE877DC24C4E628FC5F4C3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x2.inl */,
+				1C5967B74A8441359061EFED /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x3.hpp */,
+				E1A83439E1E94759BD2298D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x3.inl */,
+				86EA72F0D208403DB7C4A837 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4.hpp */,
+				53BE1E30390C4AEA940CC26C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4.inl */,
+				D9C4562187AC492F8F4ACE07 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_mat4x4_simd.inl */,
+				E7716B4F3CAB4BBD9FA2CF5E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec.hpp */,
+				3304B8C0A9CA487697BC6724 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec.inl */,
+				648F95815F914158935BD226 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec1.hpp */,
+				0ACF94A480084CFF933DD7E9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec1.inl */,
+				80EF6B5DF10A4C4E9E6B4CBF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec2.hpp */,
+				68FA7C33CCB14BEB95410583 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec2.inl */,
+				3E7AAD02711F4D73898B2E63 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec3.hpp */,
+				F4F02B875B1D43F395B055DE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec3.inl */,
+				46B7654258A749BF8105E1AB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4.hpp */,
+				A16B5E2F956D4A4EB53823AE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4.inl */,
+				B7E09C7607CD41A5B118B1FE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/type_vec4_simd.inl */,
+			);
+			name = "Core Files";
+			sourceTree = "<group>";
+		};
+		1D17BAE73AD64298BFB50354 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F06606DE664C4D8EA1A50203 /* CMake Rules */,
+				9AA07DCC2F964E2F96E6F3A6 /* /Users/code/Desktop/hello-bgfx/external/glm/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5865E90915B646EFBF0F55E8 /* Text Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50DAF5BF5304293AFC9AE4C /* /Users/code/Desktop/hello-bgfx/external/glm/CMakeLists.txt */,
+				C394DB2EE77A47B085E6B589 /* /Users/code/Desktop/hello-bgfx/external/glm/manual.md */,
+				0503707813594E7B975392EA /* /Users/code/Desktop/hello-bgfx/external/glm/readme.md */,
+			);
+			name = "Text Files";
+			sourceTree = "<group>";
+		};
+		7732E896E479418AB13FFF05 /* glm_dummy */ = {
+			isa = PBXGroup;
+			children = (
+				5865E90915B646EFBF0F55E8 /* Text Files */,
+				DA611719064D4309B44241CE /* Header Files */,
+				088633EE0E4C439EA648F205 /* Core Files */,
+				B14F46DA55C6468E9866D78B /* GTC Files */,
+				EFB586916D994292AB40E255 /* GTX Files */,
+				CA871D7A38C6459EBC982A0D /* SIMD Files */,
+				F7D26366C34F4E4D8B1D3C82 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/CMakeLists.txt */,
+				656C1E62EABD4BFA878AB1DA /* /Users/code/Desktop/hello-bgfx/external/glm/util/glm.natvis */,
+			);
+			name = glm_dummy;
+			sourceTree = "<group>";
+		};
+		83433AD3F005439DB311C3AB = {
+			isa = PBXGroup;
+			children = (
+				1D17BAE73AD64298BFB50354 /* ALL_BUILD */,
+				7732E896E479418AB13FFF05 /* glm_dummy */,
+				C5917B947C7F4C47A85BF66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B14F46DA55C6468E9866D78B /* GTC Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC386D30F3406C8CA7DF92 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/bitfield.hpp */,
+				EC34EDE50C874636BCA4DB28 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/bitfield.inl */,
+				4B9FB89E5A0F46B4B976B476 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/color_space.hpp */,
+				8F907E1AF55C46408B05FFB4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/color_space.inl */,
+				7F2E994490EA4600BCEF0676 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/constants.hpp */,
+				11A368922FE74652A8BB3CAF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/constants.inl */,
+				1360AB3131924A238CACAF11 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/epsilon.hpp */,
+				B2D8FACACB6F4344A80B9E39 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/epsilon.inl */,
+				3A3BEE824ECE4AADB5B39154 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/functions.hpp */,
+				0BECD9D1A58A48EF96EB803E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/functions.inl */,
+				488089519FDE4432A5CFD2A6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/integer.hpp */,
+				0C75E13C2D064A7A9165BC5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/integer.inl */,
+				EA5C06A32A8D4D84AE2D6DD2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_access.hpp */,
+				D7ABCBC01CDF428A8C8688B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_access.inl */,
+				E0AB151228334473A092EA5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_integer.hpp */,
+				259324B0D8854FDC931D4994 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_inverse.hpp */,
+				8DBA6F624AC24980816D0C84 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_inverse.inl */,
+				81AFF4FEDF5C46F9AE584018 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_transform.hpp */,
+				0638F9DD48384F56B76834D6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/matrix_transform.inl */,
+				76328529E9E3436C8768B1D6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/noise.hpp */,
+				58CBF157180047ABB95E2493 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/noise.inl */,
+				4527ED81FE6F448E848A04D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/packing.hpp */,
+				49412F796F5A435A94B26790 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/packing.inl */,
+				8A194E96D27A4FD8BA33B922 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion.hpp */,
+				8FBF8F7BDEC84A8CAF8A6869 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion.inl */,
+				24954BAADB05400DAF012DF3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/quaternion_simd.inl */,
+				D3F293AB478B41C5BF75F10F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/random.hpp */,
+				98E2D5AF18234FA7A394CA54 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/random.inl */,
+				2ED8C8341BFC40AFA9F82F19 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/reciprocal.hpp */,
+				8706B7105FF74F73A09A679D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/reciprocal.inl */,
+				150F2FFD01AA4B558DCBAEC8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/round.hpp */,
+				D8AF7C6F4129432DB4F2A3B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/round.inl */,
+				DFE002436F5142158EF73F42 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_aligned.hpp */,
+				43B4A47AA70C4B16AD6CA857 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_precision.hpp */,
+				ACCFE9235A804E7FA53E46BE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_precision.inl */,
+				AF97A3103D974AF591709358 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_ptr.hpp */,
+				A78E8AA44DC4499998B4493A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/type_ptr.inl */,
+				08F44424B4184D439452018C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/ulp.hpp */,
+				47BA623E2C504270AB7DF203 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/ulp.inl */,
+				B9ACFB1751A6489AB27D1DD6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/vec1.hpp */,
+				3AD05C7D19DC4DCC884F6732 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtc/vec1.inl */,
+			);
+			name = "GTC Files";
+			sourceTree = "<group>";
+		};
+		C5917B947C7F4C47A85BF66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F229CD39EDA411A8A0A37CE /* glm_dummy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA871D7A38C6459EBC982A0D /* SIMD Files */ = {
+			isa = PBXGroup;
+			children = (
+				49AF6347EDE642569AD8502C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/common.h */,
+				CD5EC89705884B6D816A652A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/exponential.h */,
+				442656DB7B524620AEE58C5F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/geometric.h */,
+				FAB5824E92654CF39D37CDD6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/integer.h */,
+				B4F26B36DD9146A28DE24BC0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/matrix.h */,
+				EA28B2B5519E45BF8BC96381 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/packing.h */,
+				4BF9887E63254BE7925E3F98 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/platform.h */,
+				FF1E071E626A4B5FB66402F0 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/trigonometric.h */,
+				4BFE343695D4465CAE26B4B8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/simd/vector_relational.h */,
+			);
+			name = "SIMD Files";
+			sourceTree = "<group>";
+		};
+		DA611719064D4309B44241CE /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5ADA540C9CB49B0BC55D619 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/common.hpp */,
+				312F9C8895AF40C1816E5073 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/exponential.hpp */,
+				1A196BD6174B457F970B14BD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/ext.hpp */,
+				C0F26333D76846909AAE66ED /* /Users/code/Desktop/hello-bgfx/external/glm/glm/fwd.hpp */,
+				4FE15B5418954E858CDA0917 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/geometric.hpp */,
+				6499FF6CB04447428CBFA723 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/glm.hpp */,
+				D72805A2F75D47D3AEB3405D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/integer.hpp */,
+				A034FDC3A8994EA2A55E385B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x2.hpp */,
+				B6130B9F65374FDDBCF35DD1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x3.hpp */,
+				BFEFF971DB644BC1BFB379B3 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat2x4.hpp */,
+				220F910737D64F899BE20505 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x2.hpp */,
+				6613FF45EF6045198B735308 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x3.hpp */,
+				B7DF3991B91E43CAB620922D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat3x4.hpp */,
+				E99AAF6F3B034EE29178EABC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x2.hpp */,
+				28C41D1DA2BE4BDBBBB67A70 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x3.hpp */,
+				29C32287FC44482AA22433D9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/mat4x4.hpp */,
+				0F1B888E158E4BEEB1E8C1FB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/matrix.hpp */,
+				974BDA56446548A4BD729855 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/packing.hpp */,
+				42278561FEFF4F0B81DA0F18 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/trigonometric.hpp */,
+				26338C06E3FE44B4AC229CB9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec2.hpp */,
+				9A513AE4A85D4EA892E22641 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec3.hpp */,
+				EE43B0FA4DEF488BA5F03D0D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vec4.hpp */,
+				E9B234A7EB7D45F8AD5B33DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/vector_relational.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EFB586916D994292AB40E255 /* GTX Files */ = {
+			isa = PBXGroup;
+			children = (
+				39402727195F4F22AB980595 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/associated_min_max.hpp */,
+				F19803B11C5E47EC96E2213C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/associated_min_max.inl */,
+				1DEBC897515A4892946DC271 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/bit.hpp */,
+				30F497C23983454796E4FE4A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/bit.inl */,
+				3D9572BB68014F1F8AF998BC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/closest_point.hpp */,
+				6AEE7EADB5D045AE8FA3CB3B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/closest_point.inl */,
+				25A10887513B4F308BF779A4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_encoding.hpp */,
+				F13F37630ECD4FC4B3A8FFFD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_encoding.inl */,
+				C4C82A6632D84EC6AEFB4AF9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space.hpp */,
+				4FC646A6F27A4B8580E07C36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space.inl */,
+				477C3208EFD7455E8DD94F3A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space_YCoCg.hpp */,
+				0884A563C79740B4A8517F8E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/color_space_YCoCg.inl */,
+				179034951B054B31AE7B101C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/common.hpp */,
+				4457CD4003764908BB759DDB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/common.inl */,
+				EBD111332DA0451C8EE4224B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/compatibility.hpp */,
+				7D9ACF494EE74C61A24AC1D4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/compatibility.inl */,
+				5A939AA090274293B7EA0F77 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/component_wise.hpp */,
+				78E3250BA31D47E89C84CF31 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/component_wise.inl */,
+				8189634E21C54448849056EB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/dual_quaternion.hpp */,
+				5AF9210301414ED390B88DCC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/dual_quaternion.inl */,
+				10B1C95261F545008C5A5CEF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/euler_angles.hpp */,
+				7E25CED7693D4C36B5425E65 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/euler_angles.inl */,
+				D8BC130E3B204AD885520E6F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extend.hpp */,
+				8EC14B4EE9AD46CF980D1BD9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extend.inl */,
+				767590EA10D14E189568817D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extended_min_max.hpp */,
+				182BAB8F25544CB5B37C6A1C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/extended_min_max.inl */,
+				B82AC5451A054581B8A03C49 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_exponential.hpp */,
+				43D8CAF2A01249DF95BA8C1F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_exponential.inl */,
+				F3C11D63483E41B781C235F7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_square_root.hpp */,
+				44129EE62C9E4D8A9EB0B8D5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_square_root.inl */,
+				D82510BBB2CC46B7B9C46833 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_trigonometry.hpp */,
+				E565C6DEB20E493AB70FB2E6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/fast_trigonometry.inl */,
+				A09D1795A7C54FD9A66761DD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/float_notmalize.inl */,
+				E820D9F0CE0145F2ADE7AE29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/gradient_paint.hpp */,
+				65630C99DB3040279A090A29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/gradient_paint.inl */,
+				C35CA6F4B374425BBBB100E7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/handed_coordinate_space.hpp */,
+				6ED2DA74FD61420BA7FCD525 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/handed_coordinate_space.inl */,
+				A6D6ECD1685D40E192AF3A29 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/hash.hpp */,
+				8EE746619ABF4163B70A4C36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/hash.inl */,
+				776B2716CD2046EEBAC28C5C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/integer.hpp */,
+				1DD01DCFD0AA47CCA8D33558 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/integer.inl */,
+				768CA990405440BA92B01F65 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/intersect.hpp */,
+				7A11E2EB49E44350A9A177B5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/intersect.inl */,
+				0E21DF7EA4FA464CB42B9425 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/io.hpp */,
+				712872ADFD384432A61C3AAA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/io.inl */,
+				BAAF0CAF734D4895903E11BC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/log_base.hpp */,
+				03E70D5D5E9142C5A78DAED8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/log_base.inl */,
+				7FDC71D7A6B34BBA92CC5BD8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_cross_product.hpp */,
+				906407BBE145497D95E69F18 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_cross_product.inl */,
+				D98ABFFE2EB84E41BCAA1554 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_decompose.hpp */,
+				9DA90ABA9A314F47A42EEABC /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_decompose.inl */,
+				08092664C12C4AD58238BDD2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_interpolation.hpp */,
+				78441343F3904E829C75A3FA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_interpolation.inl */,
+				D770B76211C74BB8BD9A1C1C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_major_storage.hpp */,
+				BB3288B2F3C2455B89C6092C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_major_storage.inl */,
+				E642A22CB4464D2BBF5891CB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_operation.hpp */,
+				8413CE16E9DB404B90D2A501 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_operation.inl */,
+				5C669B8D3AB7495CB3B4A623 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_query.hpp */,
+				7C57F41BB72A47ACA78D6A86 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_query.inl */,
+				5D8A9E7E4F8743A388F0B32B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_transform_2d.hpp */,
+				82F46CEA192E44F8A9C84AD7 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/matrix_transform_2d.inl */,
+				517178C9AB1049F28692CA39 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/mixed_product.hpp */,
+				88B13B97B071409880DAEAFB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/mixed_product.inl */,
+				90E0C961C7B2491CB0FE3009 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/norm.hpp */,
+				2B33BC2305D44524ADD5D691 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/norm.inl */,
+				B81DEDA70C3040D385689767 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normal.hpp */,
+				3279AC50FD6640FF8861FB5F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normal.inl */,
+				A6F078859A714BC78442E5CF /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normalize_dot.hpp */,
+				F0C0252F978A4AF2AD27163E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/normalize_dot.inl */,
+				9D3410665E69423C9236C745 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/number_precision.hpp */,
+				E03758E961C14D68B831B485 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/number_precision.inl */,
+				CCF7402B1A1D4AF499301079 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/optimum_pow.hpp */,
+				050D601A2F6946C49F3C1398 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/optimum_pow.inl */,
+				0D0586A638F8402B8646AE23 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/orthonormalize.hpp */,
+				39A1A08D1394477CB797FCD4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/orthonormalize.inl */,
+				8493FED0FED149AC842580A9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/perpendicular.hpp */,
+				756082B8168A487AB980DB3D /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/perpendicular.inl */,
+				8486C8CDD8AF492DAD2BB0A6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/polar_coordinates.hpp */,
+				B006E0785EF74BFCACB28DF4 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/polar_coordinates.inl */,
+				2FB287EFEA6E4420A845CB7C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/projection.hpp */,
+				A95E8BFB685445A9878690DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/projection.inl */,
+				01320A3529304815AE641CA6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/quaternion.hpp */,
+				09997F6DC0E24ED5B494E8A1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/quaternion.inl */,
+				6F867EB468024A269AC92DEA /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/range.hpp */,
+				999748E9F8854A09B3195D6F /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/raw_data.hpp */,
+				044A024CAB8F4ACF859001B9 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/raw_data.inl */,
+				77D23229C6E44D208251AFEE /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_normalized_axis.hpp */,
+				5E465876BDFD4A21AD7F8185 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_normalized_axis.inl */,
+				C076C475D6D34CCE8B2A97E8 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_vector.hpp */,
+				6885767BCE374A1BAEF7B2C1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/rotate_vector.inl */,
+				5C77903B335D445985C92B36 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_multiplication.hpp */,
+				1EF6A6D247734DAB8F70DFDD /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_relational.hpp */,
+				5AF764B208294A88914D6384 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/scalar_relational.inl */,
+				1D445EA4DB464F519408E40C /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/spline.hpp */,
+				37CCC3DAC89C4C5BA8B1E539 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/spline.inl */,
+				756F4950A3DB4DEFB1327A0B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/std_based_type.hpp */,
+				0602E1AFA5CE47E0915AC650 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/std_based_type.inl */,
+				F30A7938A2A04F0985C6FC77 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/string_cast.hpp */,
+				CF3BB29A173D4B92AB43F26E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/string_cast.inl */,
+				B3C8BC4E7BB944CCA10C8095 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform.hpp */,
+				D85D99CC20F6490197856AB1 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform.inl */,
+				0B1D19FE0B15419F885BCDB5 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform2.hpp */,
+				49480197F8E249F1BE544D83 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/transform2.inl */,
+				4A0595DB93B1485D9E9465DB /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_aligned.hpp */,
+				E0181CF479D3455E9EBF1162 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_aligned.inl */,
+				050F0448020C45AABC380057 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_trait.hpp */,
+				9C7DC63CC78B47CEB8816748 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/type_trait.inl */,
+				4AAFBC7343244BBF8E1F48C6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vec_swizzle.hpp */,
+				17F345950C9D494DA1425C2A /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_angle.hpp */,
+				6F4E6A512F084034B4CDCD0B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_angle.inl */,
+				8FB50F4B9A0F4F739E1609E2 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_query.hpp */,
+				68E3F996B7C24E3E99C95B8E /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/vector_query.inl */,
+				D72DDC5C1F0A44279CFEAFB6 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/wrap.hpp */,
+				4E0F103BAC6F4125BBA17B03 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/gtx/wrap.inl */,
+			);
+			name = "GTX Files";
+			sourceTree = "<group>";
+		};
+		F06606DE664C4D8EA1A50203 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B5C58CCF37433CB2330063 /* glm_dummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A6A5708F3F4C22AF1EA799 /* Build configuration list for PBXNativeTarget "glm_dummy" */;
+			buildPhases = (
+				D6A52E24DF104902A26219B7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glm_dummy;
+			productName = glm_dummy;
+			productReference = 0F229CD39EDA411A8A0A37CE /* glm_dummy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA1FDF488D24878BBF3B1C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = A13950624BD94EC89A5464F9 /* Build configuration list for PBXProject "glm" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7719B3543EEC42E5A101D8BD /* Debug */,
+				09FC1F22E8FE42149F7B8660 /* Release */,
+				81367DE06EE2485E9B1ADD44 /* MinSizeRel */,
+				3E3373468B834367844A24F3 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 83433AD3F005439DB311C3AB;
+			projectDirPath = ../../../external/glm;
+			projectRoot = "";
+			targets = (
+				E1D470BA7F444D9F8F77915A /* ALL_BUILD */,
+				DBD714FD53C54B24BA16DC63 /* ZERO_CHECK */,
+				E4B5C58CCF37433CB2330063 /* glm_dummy */,
+				4C5FED79E96D419E8A664BBD /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AD3B3F0287E474998EEAE52 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/code/Desktop/hello-bgfx/build/external/glm -f /Users/code/Desktop/hello-bgfx/build/external/glm/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		850CFA90D73941EE9C1101D1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/code/Desktop/hello-bgfx/build/external/glm -f /Users/code/Desktop/hello-bgfx/build/external/glm/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8B90EBCDFD3444F4AD7A7C94 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/code/Desktop/hello-bgfx/build/external/glm -f /Users/code/Desktop/hello-bgfx/build/external/glm/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A9405E5989E74F7FA7B2D8F3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C17E1323510B4929AC29D1D7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F288D03557884A0FAE5FF84F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6A52E24DF104902A26219B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B2E7E179047E2B7A98546 /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/dummy.cpp */,
+				48E7AFB219F441918C0C291B /* /Users/code/Desktop/hello-bgfx/external/glm/glm/detail/glm.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182A74B0B1A642098DB16D7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B5C58CCF37433CB2330063 /* glm_dummy */;
+			targetProxy = DE0ACE26C04D4FBCA0CAE962 /* PBXContainerItemProxy */;
+		};
+		2056147680274B7D94D673D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD714FD53C54B24BA16DC63 /* ZERO_CHECK */;
+			targetProxy = 6A72450A63A74095BEEFB64C /* PBXContainerItemProxy */;
+		};
+		4133F074EA0343FA905E4A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1D470BA7F444D9F8F77915A /* ALL_BUILD */;
+			targetProxy = 0B6F01AD55C54909B5DFD364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		167CEC15DE97487EBA7D6386 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		17AC2B8C4E644B57AF3BBDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		197D38E30EDF45A3B9842FE0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2A472390F8134351BCDBE7B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3AC76D6D90434CFDA595890E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		40AC86947C21442B862F8B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		42EB329FE35D4F7E8069C2A1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		455415B87FA94D50BF3C92E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/code/Desktop/hello-bgfx/external/glm","/Users/code/Desktop/hello-bgfx/external/glm/test/external","/Users/code/Desktop/hello-bgfx/external/glm/glm/..");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'   -pedantic";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glm_dummy;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		45926671B9AD4FEC84A67714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		517A5EF762EC4CC0934D149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/code/Desktop/hello-bgfx/external/glm","/Users/code/Desktop/hello-bgfx/external/glm/test/external","/Users/code/Desktop/hello-bgfx/external/glm/glm/..");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'   -pedantic";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glm_dummy;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6BCAD2D27C554F34A80DA964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm/build";
+			};
+			name = Debug;
+		};
+		90D070CC88A148B2BCC3E36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A947E00C4B1E4D54B3DE8056 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C0AB057B775349DBB63C770E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C511A6EC05564F14812DC008 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/code/Desktop/hello-bgfx/external/glm","/Users/code/Desktop/hello-bgfx/external/glm/test/external","/Users/code/Desktop/hello-bgfx/external/glm/glm/..");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'   -pedantic";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glm_dummy;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C620F9E2ADA54DD6870FB238 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm/build";
+			};
+			name = MinSizeRel;
+		};
+		DAE5511C54FE43A2A021F235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm/build";
+			};
+			name = Release;
+		};
+		F66CD24C57D5413980429770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F8CB398ACA504B28B8B99589 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FA6664CECCCE4B3E80CB12DB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_CRT_SECURE_NO_WARNINGS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/code/Desktop/hello-bgfx/external/glm","/Users/code/Desktop/hello-bgfx/external/glm/test/external","/Users/code/Desktop/hello-bgfx/external/glm/glm/..");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'   -pedantic";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glm_dummy;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/code/Desktop/hello-bgfx/build/external/glm/glm";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2611B0812E1848D2BC5317BF /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AB057B775349DBB63C770E /* Debug */,
+				40AC86947C21442B862F8B86 /* Release */,
+				3AC76D6D90434CFDA595890E /* MinSizeRel */,
+				A947E00C4B1E4D54B3DE8056 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4380D0A2DEC24A2E98EDA21F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66CD24C57D5413980429770 /* Debug */,
+				45926671B9AD4FEC84A67714 /* Release */,
+				167CEC15DE97487EBA7D6386 /* MinSizeRel */,
+				F8CB398ACA504B28B8B99589 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		548F580A79AF4C59B4F709BA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AC2B8C4E644B57AF3BBDF3 /* Debug */,
+				90D070CC88A148B2BCC3E36E /* Release */,
+				42EB329FE35D4F7E8069C2A1 /* MinSizeRel */,
+				2A472390F8134351BCDBE7B3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A13950624BD94EC89A5464F9 /* Build configuration list for PBXProject "glm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCAD2D27C554F34A80DA964 /* Debug */,
+				DAE5511C54FE43A2A021F235 /* Release */,
+				C620F9E2ADA54DD6870FB238 /* MinSizeRel */,
+				197D38E30EDF45A3B9842FE0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5A6A5708F3F4C22AF1EA799 /* Build configuration list for PBXNativeTarget "glm_dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455415B87FA94D50BF3C92E4 /* Debug */,
+				517A5EF762EC4CC0934D149D /* Release */,
+				C511A6EC05564F14812DC008 /* MinSizeRel */,
+				FA6664CECCCE4B3E80CB12DB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA1FDF488D24878BBF3B1C5 /* Project object */;
+}

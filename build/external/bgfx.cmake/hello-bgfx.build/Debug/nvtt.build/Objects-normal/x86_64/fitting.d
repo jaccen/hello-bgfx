@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/fitting.cpp \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/fitting.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/vector.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/nvmath.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/utils.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/debug.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/nvcore.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/posh.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/defsgnucdarwin.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/plane.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/vector.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/hash.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/plane.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/matrix.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/matrix.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/array.inl \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/array.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/memory.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/foreach.h \
+  /Users/code/Desktop/hello-bgfx/external/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/stream.h
